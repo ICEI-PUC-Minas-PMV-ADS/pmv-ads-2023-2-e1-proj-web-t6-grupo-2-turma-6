@@ -1,26 +1,25 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/sy1vqBms)
-# Título do Projeto
+# Leer 
 
-`CURSO`
+`CURSO: Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`DISCIPLINA: Desenvolvimento de Aplicação Web Front-End `
 
-`SEMESTRE`
+`SEMESTRE: 2o semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Aislan Madison Bicalho
+* Mariana Sayuri Tomioka
+* Simony Larissa Bueno
+* Vitoria Veronezzi Pilon
+* Weder Fabiano Moreira
 
 ## Orientador
 
-* Nome completo do professor
+* Marcos Andre Silveira Kutova
 
 # Documentação
 
