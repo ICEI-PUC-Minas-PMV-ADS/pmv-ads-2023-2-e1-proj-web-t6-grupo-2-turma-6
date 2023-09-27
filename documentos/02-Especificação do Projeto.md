@@ -59,7 +59,7 @@
 | RF-01 |  Cada usuário deve ter um perfil para gerenciar suas informações pessoais e preferências. | ALTA   | 
 | RF-02 |  Permitir ao usuário criar uma agenda, com tópicos de estudo e prazos de entrega de atividades ou data de avaliações.                      | ALTA   | 
 | RF-03 |  O usuário deve ser capaz de incluir, editar e excluir suas tarefas.                      | ALTA  | 
-|
+
 
 
 &nbsp;
@@ -74,7 +74,7 @@
 | RNF-02 |  A interface do usuário deve ser intuitiva e de fácil navegação, mesmo para usuários inexperientes.                      | ALTA   | 
 | RNF-03 |  O aplicativo deve funcionar corretamente em dispositivos (computadores, tablets, smartphones).                      | MÉDIA  | 
 | RNF-04 |  Assegurar a privacidade dos dados do usuário conforme LGPD  | MÉDIA   | 
-|
+
 
 &nbsp;
 
