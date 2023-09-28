@@ -17,22 +17,36 @@ O fluxo de usuário (User Flow) do aplicativo Leer consiste em várias telas que
 
 ## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+### Tela - Login 
+Na tela Login o usuário encontrará os campos para inserir seu e-mail e senha cadastrado para ter acesso a página home 
 
-### Protótipo de baixa fidelidade
+![prototipologin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/blob/main/documentos/img/Signin.png)
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+### Tela - Cadastro 
+A tela cadastro apresenta os seguintes campos para inserção das informações pessoais do usuário:Nome, Sobrenome, e-mail, senha para cadastro, data de nascimento e genêro.
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+![prototipocadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/blob/main/documentos/img/signup.png)
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+### Tela - Credencias incorretas  
+A tela erro apararecerá caso o usuário tente fazer login com um e-mail ou senha incorreta 
 
+![prototipocredenciaiasincorretas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/blob/main/documentos/img/wrong%20email%20or%20password.png)
 
+A tela erro apararecerá caso o usuário tente fazer login com um e-mail não cadastrado 
 
+![prototipocredenciaiasincorretas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/blob/main/documentos/img/unregistered%20email.png)
+
+### Tela - Homepage 
+A tela homepage pode ser acessada através do login com dados corretos, ela apresenta ao lado esquerdo a lista de temas cadastrados pelo usuário/estudante e o botão "+" para cadastrar novos temas. Ao lado esquerdo três colunas, a primeira "Hoje eu aprendi..." a segunda "Preciso revisar..." e a Terceira "Datas importantes ..." onde o usuário preencherá após os estudos. Na parte superior encontra-se o botão "Focus time" clicando nele o usuário cronometrará os estudos, também na parte superior encontra-se quatro abas: Home, Agenda, Time tracker e Settings. 
+
+![prototipologin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/blob/main/documentos/img/homepage.png)
+
+### Tela - Agenda
+A tela agenda apresenta um planejamento semanal, cada dia da semana tem uma coluna onde o usuário cadastra uma tarefa através do botão "+" e as tarefas ficam listadas na coluna. Na parte superior encontra-se o botão "Focus time" clicando nele o usuário cronometrará os estudos, também na parte superior encontra-se quatro abas: Home, Agenda, Time tracker e Settings. 
+
+![prototipoagenda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/blob/main/documentos/img/agenda.png)
+
+### Tela - Time tracker
+A tela time tracker apresenda ao lado esquerdo uma tabela com o registro de todos os dias e horários de estudos e ao lado direito um gráfico dos temas estudados e outro das horas estudadas cada dia da semana. Na parte superior encontra-se o botão "Focus time" clicando nele o usuário cronometrará os estudos, também na parte superior encontra-se quatro abas: Home, Agenda, Time tracker e Settings. 
+
+![prototipotimetracker](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/blob/main/documentos/img/Time%20tracker.png)
