@@ -3,9 +3,12 @@
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O fluxo de usuário (User Flow) do aplicativo Leer consiste em várias telas que dão acesso a diferentes funcionalidades do site e páginas onde o usuário poderá visualizar as suas tarefas e atividades feitas, assim como, os estudos que estão em andamento
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
+![userflow 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145687308/65624c9a-f762-48e1-8d6d-ee41abad14e6)
+ ![userflow 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145687308/2ce44e10-d6a0-4df0-bca9-b4cc0c32a1d6)
+![userflow 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145687308/919ba234-fd3a-48cc-8e84-78919e48baee)
+
 
 > **Links Úteis**:
 > - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
