@@ -28,6 +28,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 3 - Metodologia e ferramentas:  Foi escolhida a metodologia SCRUM, a qual consiste em utilizar métodos ágeis como objetivo de auxiliar na gestão e no desenvolvimento do projeto. Além disso, foram utilizadas aplicativos como Moqups, Lucid app, entre outros. Foi notado uma facilidade de entendimento do processo como um todo através do uso do papel sulfite para melhor organização e clareza das ideias, em especial do user flow.
 
 ￼
+![user flow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/2f7ff08b-91ba-4e5a-8819-5a74df2dc6fd)
 
 
 
@@ -45,6 +46,7 @@ Aislan Madison Bicalho: inserção da etapa um no repositório do Github;
 Mariana Sayuri Tomioka: descrição do processo da primeira etapa e slides;
 Weder Fabiano Moreira e Vitoria Veronezzi Pilon: confecção do user flow. 
 
+![user flow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/b9dc0918-e2fb-4293-bf16-095a341e5b10)
 
 
 
