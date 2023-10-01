@@ -51,10 +51,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| 
-| Documentos do projeto               | GitHub                             | http://                         |
-| Projeto de Interface                | Moqups                                                   |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
-
+| Documentos do projeto               |Github                              |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6                                                             |
+| Projeto de Interface                | Moqups                  |                     https://app.moqups.com/xTrJAgQRbbTOddb4KSMRDzUA0GYJrX2F/edit/page/a6e15c8ff                          |
+|---------------------------------------------------------------------------------------------------------------------|
 
