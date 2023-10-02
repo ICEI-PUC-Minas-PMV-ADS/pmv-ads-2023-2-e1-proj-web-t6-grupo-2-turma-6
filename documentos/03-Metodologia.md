@@ -42,6 +42,7 @@ Aislan Madison Bicalho: inserção da etapa um no repositório do Github;
 Mariana Sayuri Tomioka: descrição do processo da primeira etapa e slides;
 Weder Fabiano Moreira e Vitoria Veronezzi Pilon: confecção do user flow. 
 
+<img width="1427" alt="Screenshot 2023-10-01 at 21 07 59" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/b44b91c9-9906-4fb6-8d70-4237513361cb">
 
 
 
