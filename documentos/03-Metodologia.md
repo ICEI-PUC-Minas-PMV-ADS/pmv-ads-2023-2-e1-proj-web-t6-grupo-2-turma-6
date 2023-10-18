@@ -10,10 +10,11 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
-**- Scrum Master: Simony Larissa Bueno
-- Product Owner: Weder Fabiano Moreira
-- Equipe de Desenvolvimento: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira
-- Equipe de Design: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
+- **Scrum Master: Simony Larissa Bueno**
+- **Product Owner: Weder Fabiano Moreira**
+- **Equipe de Desenvolvimento: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
+- **Equipe de Design: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
+
 
 
 ### Processo
@@ -30,10 +31,10 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 4-  Organização: além da organização dentro do SCRUM, o qual ficou:
 
-*** Scrum Master: Simony Larissa Bueno
+* Scrum Master: Simony Larissa Bueno
 * Product Owner: Weder Fabiano Moreira
 * Equipe de Desenvolvimento: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira
-* Equipe de Design: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
+* Equipe de Design: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira 
 
 Para o melhor decorrer do trabalho foram divididas atribuições entre os integrantes do grupo, ficando assim cada um responsável por uma tarefa para consequente entrega:
 
