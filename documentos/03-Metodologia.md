@@ -18,35 +18,89 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 
 ### Processo
-1- Brainstorming: O projeto foi iniciado a partir de dores, ou seja, sentimento de necessidade de aplicativos que atendessem as demandas dos estudantes, sendo estas principalmente pessoais dos integrantes do grupo. Com isso, além das conversas através do aplicativo WhatsApp, em uma reunião on-line via teams foi decidido pelo tema escolar e os principais pontos que o trabalho abordaria para suprir dificuldades e facilitar a rotina de estudos.
 
-2 - Planejamento: Durante as conversas acordados os pontos em que aplicação iria atender. Além disso, foram realizadas pesquisas com estudantes reais através do WhatsApp, assim como foi analisada as necessidades dos integrantes do próprio grupo, dada a distância física de cidades e até mesmo países diferentes, bem como o fuso horário. Dessa maneira, a então da persona e as histórias de usuário foram pensadas de acordo com as necessidades do público alvo, as quais levam em consideração a dinâmica da vida do estudante EAD.
+**ETAPA 1**
 
-3 - Metodologia e ferramentas:  Foi escolhida a metodologia SCRUM, a qual consiste em utilizar métodos ágeis como objetivo de auxiliar na gestão e no desenvolvimento do projeto. Além disso, foram utilizadas aplicativos como Moqups, Lucid app, entre outros. Foi notado uma facilidade de entendimento do processo como um todo através do uso do papel sulfite para melhor organização e clareza das ideias, em especial do user flow.
 
+_Planejamento:_
+
+* criar o grupo nos aplicativos Whatsapp e Teams;
+* pensar individualmente em temas para o projeto; 
+* reunião para primeiro brainstorming via vídeo chamada no Teams;
+* definição do tema. 
+
+
+_Execução:_
+
+O projeto foi iniciado a partir de dores, ou seja, sentimento de necessidade de aplicativos que atendessem as demandas dos estudantes, sendo estas principalmente pessoais dos integrantes do grupo. Com isso, além das conversas através do aplicativo WhatsApp, em uma reunião on-line via teams foi decidido pelo tema escolar e os principais pontos que o trabalho abordaria para suprir dificuldades e facilitar a rotina de estudos.
+
+    
+_Evidências:_
+
+<img width="593" alt="Captura de Tela 2023-10-18 às 13 34 45" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/fb55e3a8-9cb9-4ac1-8379-72d299e6ec07">
+
+
+**ETAPA 2**
+
+
+_Planejamento:_
+
+* definição do que será feito no projeto com base nos pontos abertos na primeira conversa em grupo via teams;
+* pesquisa através do WhatsApp com estudantes reais para verificar pontos de vista sobre estudo;
+* abertura do projeto;
+* início da escrita do projeto.
+
+_Execução:_
+
+Durante as conversas foram acordados os pontos em que a aplicação iria atender. Além disso, foram realizadas pesquisas com estudantes reais através do WhatsApp, assim como foi analisada as necessidades dos integrantes do próprio grupo, dada a distância física de cidades e até mesmo países diferentes, bem como o fuso horário. Dessa maneira, a então da persona e as histórias de usuário foram pensadas de acordo com as necessidades do público alvo, as quais levam em consideração a dinâmica da vida do estudante EAD.
+
+_Evidências:_
+
+![57e55802-e6b2-40e5-ba7f-4b68d907a583](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/67087598-35d2-402a-9bcf-bf6bbeb4d86e)
+![057aa48d-943c-411f-92db-be82c1a5b8c7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/cf847042-3d8a-44f0-a52c-e58801a8d288)
+
+**ETAPA 3**
+
+
+_Planejamento:_
+
+* escolha da metodologia a ser utilizada;
+* busca por aplicativos e ferramentas que facilitem organização e construção do projeto;
+* definição do user flow do trabalho.
+
+_Execução:_
+
+Foi escolhida a metodologia SCRUM, a qual consiste em utilizar métodos ágeis com o objetivo de auxiliar na gestão e no desenvolvimento do projeto. Além disso, foram utilizados aplicativos como Moqups, Lucid app, entre outros. Foi notado uma facilidade de entendimento do processo como um todo através do uso do papel sulfite para melhor organização e clareza das ideias, em especial do user flow.
+
+
+_Evidências:_
 ￼
 ![user flow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/2f7ff08b-91ba-4e5a-8819-5a74df2dc6fd)
 
 
 
-4-  Organização: além da organização dentro do SCRUM, o qual ficou:
 
-* Scrum Master: Simony Larissa Bueno
-* Product Owner: Weder Fabiano Moreira
-* Equipe de Desenvolvimento: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira
-* Equipe de Design: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira 
 
-Para o melhor decorrer do trabalho foram divididas atribuições entre os integrantes do grupo, ficando assim cada um responsável por uma tarefa para consequente entrega:
+**ETAPA 4**
 
-Simony Larissa Bueno: organização dos papéis e criação do repositório;
-Aislan Madison Bicalho: inserção da etapa um no repositório do Github;
-Mariana Sayuri Tomioka: descrição do processo da primeira etapa e slides;
-Weder Fabiano Moreira e Vitoria Veronezzi Pilon: confecção do user flow. 
+_Planejamento:_
+
+* definição dos papéis para os integrantes do grupo para execução do projeto conforme metodologia SCRUM;
+* criação de um espaço no aplicativo GitHub para o projeto;
+* organização das tarefas no kanban do GitHub.
+
+
+_Execução:_
+
+Para o melhor decorrer do trabalho foram divididas atribuições entre os integrantes do grupo, sendo isso discutido através do aplicativo WhatsApp, o qual estão ocorrendo 100% das interações entre o grupo. Após as escolhas dos papéis, cada um ficou responsável por uma tarefa para consequente entrega:
+Simony Larissa Bueno: organização dos papéis e criação do repositório; Aislan Madison Bicalho: inserção da etapa um no repositório do Github; Mariana Sayuri Tomioka: descrição do processo da primeira etapa e slides; Weder Fabiano Moreira e Vitoria Veronezzi Pilon: confecção do user flow.
+
+
+_Evidências:_
+
+![IMG_3039](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/bb7a8ada-1ccd-4fdd-a698-4914527eef8d)
 
 <img width="1427" alt="Screenshot 2023-10-01 at 21 07 59" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/b44b91c9-9906-4fb6-8d70-4237513361cb">
-
-
-
 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
