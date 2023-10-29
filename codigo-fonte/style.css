@@ -9,11 +9,34 @@ body {
 
 .top-bar {
     background-color: white;
-    display: flex;
     max-width: 100%;
     padding: 10px;
     color: black;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.focus-time {
+    float: right;
+    padding: 10px;
+}
+
+.time-button {
+    background-color: #8b51f5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.time-button:hover {
+    background-color: #6b3ebe;
+}
+
+.time i {
+    padding: 10px;
+    scale: 150%;
+    vertical-align: middle;
 }
 
 .container {
