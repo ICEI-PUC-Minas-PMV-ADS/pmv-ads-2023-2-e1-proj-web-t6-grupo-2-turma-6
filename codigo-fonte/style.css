@@ -4,12 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #dacafb;
+    box-sizing: border-box;
 }
 
 .top-bar {
     background-color: white;
     display: flex;
-    width: 100%;
+    max-width: 100%;
     padding: 10px;
     color: black;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -27,14 +28,12 @@ body {
     flex-basis: 25%;
     background-color: #FFFFFF;
     padding: 20px;
-    margin-right: 1cm; 
+    margin-right: 20px; 
+    margin-left: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.column:last-child {
-    margin-right: 0; 
-}
 
 .column h2 {
     text-align: center;
@@ -44,11 +43,12 @@ textarea, input[type="date"] {
     background-color: #8b51f5;
     resize: none;
     color: #FFFFFF;
-    width: 95%;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 textarea::placeholder {
@@ -59,11 +59,6 @@ textarea::placeholder {
     margin-bottom: 30px;
 }
 
-.temas {
-    display: flex;
-    flex-direction: column;
-}
-
 .tema-button {
     background-color: #8b51f5;
     color: #fff;
@@ -72,9 +67,27 @@ textarea::placeholder {
     padding: 10px;
     margin: 5px 0;
     cursor: pointer;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 .tema-button:hover {
     background-color: #6b3ebe;
 }
 
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 12px;
+        flex-wrap: wrap;
+    }
+    .column {
+        flex-basis: 100%;
+        padding: 12px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right:0;
+        display: block;
+        flex-direction: column;
+    }
+  }
