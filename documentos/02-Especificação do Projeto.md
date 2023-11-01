@@ -56,10 +56,11 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  Cada usuário deve ter um perfil para gerenciar suas informações pessoais e preferências. | ALTA   | 
-| RF-02 |  Permitir ao usuário fazer anotações sobre diciplinas ou tópicos de estudos, anotando o que aprendeu o que precisa apender  e prazos de entrega de atividades ou data de avaliações.                      | ALTA   | 
+| RF-01 |  Cada usuário deve fazer o login na página através de um e-mail e uma senha. 
+. | ALTA   | 
+| RF-02 |  Permitir ao usuário fazer anotações sobre disciplinas ou tópicos de estudos, anotando o que aprendeu o que precisa apender  e prazos de entrega de atividades ou data de avaliações.                      | ALTA   | 
 | RF-03 |  O usuário deve ser capaz de incluir, editar e excluir suas tarefas.                      | ALTA  | 
-|RF-04| A aplicaçāo deve permitir o usuário cronometrar o tempo de estudo, clicando sobre o botāo focus time.|
+|RF-04| A aplicaçāo deve permitir o usuário cronometrar o tempo de estudo, clicando sobre o botāo focus time.| MÉDIA|
 
 
 
