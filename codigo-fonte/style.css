@@ -114,3 +114,65 @@ textarea::placeholder {
         flex-direction: column;
     }
   }
+
+ /* CSS DO LOGIN */
+
+.container {
+            display: grid;
+            grid-template-columns: 50% ;
+            grid-template-rows:5% auto 15%;
+            grid-template-areas: 
+            "header header"
+            "nav article"
+            "footer footer";
+            grid-gap: 10px;
+        }
+      
+
+       nav {
+        grid-area: nav;
+        background: white;
+            color: #d3d5d6;
+           display: flex;
+           flex-flow: row nowrap;
+           margin-left: 10px;
+           padding: 100px;
+       }
+
+        article {
+            grid-area: article;
+            background: white;
+            color: #d3d5d6;
+            width: 200px;
+            margin-top: 100px;
+            margin-left: 100px;
+            padding: 50px;
+            
+        }
+
+    
+
+        h3 {
+            color: #b48df6;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .login {
+            background: #b48df6;
+            color: white;
+            margin-top: 10px;
+            margin-left: 15px;
+            padding: 6px;
+            border-radius: 10px;
+        }
+
+        .login:hover {
+            background:#d3d5d6;
+        }
+
+        
+        footer {
+            grid-area: footer;
+            background-color: #f1eafc;
+            padding: 50px;
+        }
