@@ -25,7 +25,7 @@ Os artefatos serāo encontrados na pasta código fonte, sendo eles:
 A página será direcionada para a tela principal. 
 
 
-#### Responsável: Larissa e Mariana 
+#### Responsáveis: Larissa e Mariana 
 
 
 ### Tela Principal
@@ -52,10 +52,11 @@ Os artefatos serāo encontrados na pasta código fonte, sendo eles:
 2. Clique na mesma caixa para parar o cronômetro. 
 
 # Anotações:
-1.Clique na caixa que contém a frase "escreva aqui" dentro do container "o que aprendi hoje" e faça suas anotações;
-2.Clique na caixa que contém a frase "escreva aqui" dentro do container "o que preciso revisar" e faça suas anotações;
-3.Clique no caslendário e selecione datas importantes, na caixa escreva aqui" anote o que precisa ser lemnbrado. 
+1. Clique na caixa que contém a frase "escreva aqui" dentro do container "o que aprendi hoje" e faça suas anotações;
+2. Clique na caixa que contém a frase "escreva aqui" dentro do container "o que preciso revisar" e faça suas anotações;
+3. Clique no caslendário e selecione datas importantes, na caixa escreva aqui" anote o que precisa ser lemnbrado.
 
-#### Responsável: Larissa e Vitória 
+
+#### Responsáveis: Larissa e Vitória 
 
 
