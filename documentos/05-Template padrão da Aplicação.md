@@ -6,7 +6,7 @@ Para a construçāo da tela de login, foi pensado em um design intuitivo e minim
 Foto 1 - Template da tela de Login
 <img width="1438" alt="tela de login" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/8abd46d4-9853-498d-9804-12c6060bc1bf">
 
-Por se tratar de um projeto Front-End, foi utilizado o atributo "action" dentro do elemento "form" para simular o login, rerdirecionando o usuário para a tela principal. 
+Por se tratar de um projeto Front-End, foi utilizado o atributo "action" dentro do elemento "form" para simular o login, direcionando o usuário para a tela principal. 
 
 
 # Home Page
