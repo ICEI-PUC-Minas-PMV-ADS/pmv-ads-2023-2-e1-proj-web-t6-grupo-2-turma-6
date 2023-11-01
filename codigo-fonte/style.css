@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    color: #dacafb;
     margin: 0;
     padding: 0;
     background-color: #dacafb;
@@ -40,6 +39,7 @@ body {
 }
 
 .container {
+    color: #dacafb;
     padding: 70px 0;
     max-width: 1200px;
     margin: 20px auto;
@@ -76,7 +76,7 @@ textarea, input[type="date"] {
 
 textarea::placeholder {
     color: lightgrey;
-  }
+}
 
 .data-entry {
     margin-bottom: 30px;
@@ -98,6 +98,68 @@ textarea::placeholder {
     background-color: #6b3ebe;
 }
 
+h3 {
+    color: #b48df6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-img {
+    height: 380px;
+}
+
+.login-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+    
+.login {
+    max-width: 80%;
+    background: white;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    background-color: #dacafb;
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    border-color:#b48df6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.login-form input::placeholder {
+    color: white;
+}
+
+.login-form input[type=submit] {
+    background-color: #a175f5;
+    font-weight: bold;
+}
+
+.login-form input[type=submit]:hover {
+    background-color: #9765f4;
+}
+
 @media screen and (max-width: 576px) {
     .container {
         max-width: 100%;
@@ -113,4 +175,14 @@ textarea::placeholder {
         display: block;
         flex-direction: column;
     }
-  }
+    
+    .login {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .login-img {
+        height: 200px;
+    }
+}
