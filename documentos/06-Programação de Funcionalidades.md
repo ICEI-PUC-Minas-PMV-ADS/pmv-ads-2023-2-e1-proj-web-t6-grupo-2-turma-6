@@ -47,11 +47,13 @@ Os artefatos serāo encontrados na pasta código fonte, sendo eles:
 - javascript.js
 
 #### Instruções de acesso
-# Focus time: 
+
+
+#### Focus time: 
 1. Clique na caixa no canto superior direito da tela pincipal para dar play no cronômetro;
 2. Clique na mesma caixa para parar o cronômetro. 
 
-# Anotações:
+#### Anotações:
 1. Clique na caixa que contém a frase "escreva aqui" dentro do container "o que aprendi hoje" e faça suas anotações;
 2. Clique na caixa que contém a frase "escreva aqui" dentro do container "o que preciso revisar" e faça suas anotações;
 3. Clique no caslendário e selecione datas importantes, na caixa escreva aqui" anote o que precisa ser lemnbrado.
