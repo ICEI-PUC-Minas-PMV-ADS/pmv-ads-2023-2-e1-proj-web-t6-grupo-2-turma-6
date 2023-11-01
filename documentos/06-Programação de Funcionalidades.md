@@ -1,44 +1,26 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+### Tela de Login
 
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
+<img width="1438" alt="tela de login" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/a8461441-2c34-40b5-a6b9-0a3f9bc45de1">
 
 
-#### Requisito atendido
+#### Requisito Funcional
 
-[RF-X: adicione a descrição do requisito atendido]
+[RF-01: Cada usuário deve fazer o login na página através de um e-mail e uma senha. 
 
 
 #### Artefatos da funcionalidade
+Os artefatos serāo encontrados na pasta código fonte, sendo eles:
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
+login.html
+style.css
 
 
 #### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Escreva seu endereco de e-mail e senha nas caixas disponíveis, clique em login e a página será direcionada para a tela principal. 
 
 
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+#### Responsável: Larissa e Mariana 
 
