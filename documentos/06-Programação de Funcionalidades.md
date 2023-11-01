@@ -48,13 +48,13 @@ Os artefatos serāo encontrados na pasta código fonte, sendo eles:
 
 #### Instruções de acesso
 # Focus time: 
-1- Clique na caixa no canto superior direito da tela pincipal para dar play no cronômetro;
-2- Clique na mesma caixa para parar o cronômetro. 
+1. Clique na caixa no canto superior direito da tela pincipal para dar play no cronômetro;
+2. Clique na mesma caixa para parar o cronômetro. 
 
 # Anotações:
-1- Clique na caixa que contém a frase "escreva aqui" dentro do container "o que aprendi hoje" e faça suas anotações;
-2- Clique na caixa que contém a frase "escreva aqui" dentro do container "o que preciso revisar" e faça suas anotações;
-3- Clique no caslendário e selecione datas importantes, na caixa escreva aqui" anote o que precisa ser lemnbrado. 
+1.Clique na caixa que contém a frase "escreva aqui" dentro do container "o que aprendi hoje" e faça suas anotações;
+2.Clique na caixa que contém a frase "escreva aqui" dentro do container "o que preciso revisar" e faça suas anotações;
+3.Clique no caslendário e selecione datas importantes, na caixa escreva aqui" anote o que precisa ser lemnbrado. 
 
 #### Responsável: Larissa e Vitória 
 
