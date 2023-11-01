@@ -19,9 +19,9 @@ Os artefatos serāo encontrados na pasta código fonte, sendo eles:
 
 
 #### Instruções de acesso
-1- Escreva seu endereço de e-mail;  
-2- Escreva sua senha;
-3- clique em login; 
+1. Escreva seu endereço de e-mail;  
+2. Escreva sua senha;
+3. clique em login; 
 A página será direcionada para a tela principal. 
 
 
