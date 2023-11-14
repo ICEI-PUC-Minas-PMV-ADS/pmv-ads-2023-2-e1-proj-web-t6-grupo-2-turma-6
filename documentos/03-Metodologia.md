@@ -10,104 +10,111 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
-- **Scrum Master: Simony Larissa Bueno**
-- **Product Owner: Weder Fabiano Moreira**
-- **Equipe de Desenvolvimento: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
-- **Equipe de Design: Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
+- **Scrum Master:** Simony Larissa Bueno**
+- **Product Owner:** Weder Fabiano Moreira**
+- **Equipe de Desenvolvimento:** Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
+- **Equipe de Design:** Aislan Madison Bicalho; Mariana Sayuri Tomioka; Simony Larissa Bueno; Vitoria Veronezzi Pilon; Weder Fabiano Moreira**
 
 
 
 ### Processo
+No início do projeto, a equipe realizou uma reuniāo online e decidiram que a comunicaçāo será feita de maneira assíncrona, via grupo de WhatsApp e a divisāo de responsabilidades do projeto será feita através do Github Project, que será organizado em quatro colunas:
 
-**ETAPA 1**
-
-
-_Planejamento:_
-
-* criar o grupo nos aplicativos Whatsapp e Teams;
-* pensar individualmente em temas para o projeto; 
-* reunião para primeiro brainstorming via vídeo chamada no Teams;
-* definição do tema. 
+- Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer -do projeto são incorporadas a esta lista.
+- To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.
+- In progress: lista das tarefas iniciadas.
+- Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
 
 
-_Execução:_
+**ETAPA 1 - Sprint 1**
 
-O projeto foi iniciado a partir de dores, ou seja, sentimento de necessidade de aplicativos que atendessem as demandas dos estudantes, sendo estas principalmente pessoais dos integrantes do grupo. Com isso, além das conversas através do aplicativo WhatsApp, em uma reunião on-line via teams foi decidido pelo tema escolar e os principais pontos que o trabalho abordaria para suprir dificuldades e facilitar a rotina de estudos.
+*1.1 Planejamento:*
 
-    
-_Evidências:_
+A etapa 1 foi desenvolvido: 
 
-<img width="593" alt="Captura de Tela 2023-10-18 às 13 34 45" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/fb55e3a8-9cb9-4ac1-8379-72d299e6ec07">
-
-
-**ETAPA 2**
+- Documentação de Contexto
+- Especificação do Projeto
+- Slide de apresentação do Projeto - Etapa 1
 
 
-_Planejamento:_
+*1.2 Execuçāo*
+Após uma reuniāo via Teams, a equipe decidiu que o projeto seria baseado em uma aplicaçāo que possa ser útil e interessante para todos os membros do grupo. Ficou decidido entāo criar um projeto para facilitar a organizaçāo do processo da aprendizagem dos alunos. A Larissa escreveu a primeira parte do projeto, desenvolvendo a introduçāo, o problema, justificativa, o público alvo e as aplicações relacionadas. O Fabiano e a Mariana fizeram contribuições, discutindo ideias de melhorias. A Mariana desenvolveu a segunda parte da etapa 1, sobre os perfis de usuários e a Larissa desenvolveu os requisitos funcionais e nāo funcionais. 
 
-* definição do que será feito no projeto com base nos pontos abertos na primeira conversa em grupo via teams;
-* pesquisa através do WhatsApp com estudantes reais para verificar pontos de vista sobre estudo;
-* abertura do projeto;
-* início da escrita do projeto.
+*1.3 Evidências*
 
-_Execução:_
-
-Durante as conversas foram acordados os pontos em que a aplicação iria atender. Além disso, foram realizadas pesquisas com estudantes reais através do WhatsApp, assim como foi analisada as necessidades dos integrantes do próprio grupo, dada a distância física de cidades e até mesmo países diferentes, bem como o fuso horário. Dessa maneira, a então da persona e as histórias de usuário foram pensadas de acordo com as necessidades do público alvo, as quais levam em consideração a dinâmica da vida do estudante EAD.
-
-_Evidências:_
-
-![57e55802-e6b2-40e5-ba7f-4b68d907a583](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/67087598-35d2-402a-9bcf-bf6bbeb4d86e)
-![057aa48d-943c-411f-92db-be82c1a5b8c7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/cf847042-3d8a-44f0-a52c-e58801a8d288)
-
-**ETAPA 3**
+Imagem 1 - Grupo do WhatsApp
+<img width="1010" alt="Screenshot 2023-11-14 at 11 48 53" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/f94d3e9d-b23c-45c2-9a3e-92acca712e1d">
 
 
-_Planejamento:_
-
-* escolha da metodologia a ser utilizada;
-* busca por aplicativos e ferramentas que facilitem organização e construção do projeto;
-* definição do user flow do trabalho.
-
-_Execução:_
-
-Foi escolhida a metodologia SCRUM, a qual consiste em utilizar métodos ágeis com o objetivo de auxiliar na gestão e no desenvolvimento do projeto. Além disso, foram utilizados aplicativos como Moqups, Lucid app, entre outros. Foi notado uma facilidade de entendimento do processo como um todo através do uso do papel sulfite para melhor organização e clareza das ideias, em especial do user flow.
-
-
-_Evidências:_
-￼
-![user flow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/2f7ff08b-91ba-4e5a-8819-5a74df2dc6fd)
+Imagem 2- Reuniāo sobre o projeto:
+<img width="1053" alt="Screenshot 2023-11-14 at 11 42 18" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/3f9543bb-e998-4095-b6db-2cdd3d532fc6">
 
 
 
 
+**ETAPA 2- Sprint 2**
 
-**ETAPA 4**
+*2.1 Planejamento:*
+O objetivo dessa etapa foi a definição do projeto da solução, composta pela metodologia e projeto de interface. Nessa etapa foi definido o papel de cada integrante da equipe, seguindo a metodologia SCRUM. 
 
-_Planejamento:_
+*2.2 Execução:*
+A partir dessa etapa, a divisāo de tarefas passou a ser feita através do Kanban. A Larissa, Scrum Master, ficou responsável por dividir as responsabilidades de cada integrante da equipe. Larissa desenhou um rascunho no papel de como a aplicaçāo poderia ser desenvolvida, através desse rascunho, o Fabiano desenhou o fluxograma da aplicaçāo utilizando a ferramenta Lucidchart e a Vitória desenvolveu o modelo de telas, utlizando a plataforma Moqups. 
 
-* definição dos papéis para os integrantes do grupo para execução do projeto conforme metodologia SCRUM;
-* criação de um espaço no aplicativo GitHub para o projeto;
-* organização das tarefas no kanban do GitHub.
+*2.3 Evidências:*
+
+Imagem 3- Rascunho em papel da Tela da Aplicaçāo
+<img width="840" alt="Screenshot 2023-11-14 at 12 46 53" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/c053fa1a-2c7a-41b7-9534-b379444a3537">
+
+Imagem 4- Conversa no WhatsApp sobre o uso do Kanban à partir desse etapa
+<img width="1007" alt="Screenshot 2023-11-14 at 12 42 08" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/1fccf577-d51c-43a9-b3af-8a47dc813f8c">
+
+Imagem 5- Tela do Kanban 
+<img width="1427" alt="Screenshot 2023-10-01 at 21 07 59" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/d4bcbc88-af07-4643-99a2-ba80ef4b2b92">
+
+Imagem 6- Wireframe da Aplicaçāo
+<img width="1013" alt="Screenshot 2023-11-14 at 12 49 28" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/676e4c93-6150-467e-b884-047ca24508a0">
 
 
-_Execução:_
+**ETAPA 3 - Sprint 3**
 
-Para o melhor decorrer do trabalho foram divididas atribuições entre os integrantes do grupo, sendo isso discutido através do aplicativo WhatsApp, o qual estão ocorrendo 100% das interações entre o grupo. Após as escolhas dos papéis, cada um ficou responsável por uma tarefa para consequente entrega:
-Simony Larissa Bueno: organização dos papéis e criação do repositório; Aislan Madison Bicalho: inserção da etapa um no repositório do Github; Mariana Sayuri Tomioka: descrição do processo da primeira etapa e slides; Weder Fabiano Moreira e Vitoria Veronezzi Pilon: confecção do user flow.
+*3.1 Planejamento:*
+O objetivo desta etapa foi codificar a primeira parte da solução. Utilizando HTML e CSS, para desenvolver o template da tela de Login e da tela principal. A equipe foi dividida em dois grupo: Mariana, Ayslan e Fabiano ficaram responsáveis pela tela de login e Larissa e Vitória ficaram responsáveis pela tela principal. 
 
 
-_Evidências:_
+*3.2 Execução:*
+A ferramenta Visual Studio Code foi a escolhida para escrever os códigos. Mariana desenvolveu a tela de login e Vitória desenvolveu a tela principal. Larissa fez revisões em ambas as telas, fazendo os ajustes necessários, como por exemplo, deixar a tela responsível. Larissa também utilizou um pouco de Java Script, inserindo um cronômetro na tela principal. 
 
-![IMG_3039](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/bb7a8ada-1ccd-4fdd-a698-4914527eef8d)
 
-<img width="1427" alt="Screenshot 2023-10-01 at 21 07 59" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/b44b91c9-9906-4fb6-8d70-4237513361cb">
+*3.3 Evidências:*
 
+Imagem 7- Mensagem no grupo de WhatsApp sobre a divisāo de tarefas
+<img width="590" alt="Screenshot 2023-11-14 at 13 11 46" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/98c7c5e7-062f-40d3-b621-86efdc95b9e0">
+
+Imagem 8- Kanban com as tarefas da etapa 3
+<img width="1440" alt="Screenshot 2023-11-14 at 11 02 55" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/8ca2c748-75f7-4517-97a8-9156c0b5e870">
+
+Imagem 9- Código no Visual Studio Code
+<img width="1434" alt="Screenshot 2023-11-14 at 13 17 54" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/45db900c-da41-40b6-b07f-928b3892a6a5">
+
+Imagem 10- Tela de Login
+<img width="1438" alt="tela de login" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/c9d036cb-77f5-457f-9df4-f2fbc5c17ca3">
+
+Imagem 11- Tela principal
+<img width="1440" alt="template-tela-principal" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/0ea2d0fc-6e6a-4250-b1c8-3b6cd6423c75">
+
+
+
+
+## Ferramentas 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Documentos do projeto               |Github                              |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6                                                             |
-| Projeto de Interface                | Moqups                  |                     https://app.moqups.com/xTrJAgQRbbTOddb4KSMRDzUA0GYJrX2F/edit/page/a6e15c8ff                          |
+| Documentos do Projeto               |Github                              |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6                                                             |
+| Projeto de Interface                | Moqups|              https://app.moqups.com/xTrJAgQRbbTOddb4KSMRDzUA0GYJrX2F/edit/page/a6e15c8ff|
+|Gerenciamento do Projeto| Github Projects|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/projects?query=is%3Aopen|
+|Comunicaçāo da Equipe| WhatsApp| https://web.whatsapp.com|
+|Desenvolvimento dos códigos|VS Code|https://code.visualstudio.com/|
 
 
