@@ -38,6 +38,7 @@ A etapa 1 foi desenvolvido:
 
 
 *1.2 Execuçāo*
+
 Após uma reuniāo via Teams, a equipe decidiu que o projeto seria baseado em uma aplicaçāo que possa ser útil e interessante para todos os membros do grupo. Ficou decidido entāo criar um projeto para facilitar a organizaçāo do processo da aprendizagem dos alunos. A Larissa escreveu a primeira parte do projeto, desenvolvendo a introduçāo, o problema, justificativa, o público alvo e as aplicações relacionadas. O Fabiano e a Mariana fizeram contribuições, discutindo ideias de melhorias. A Mariana desenvolveu a segunda parte da etapa 1, sobre os perfis de usuários e a Larissa desenvolveu os requisitos funcionais e nāo funcionais. 
 
 *1.3 Evidências*
@@ -55,10 +56,14 @@ Imagem 2- Reuniāo sobre o projeto:
 **ETAPA 2- Sprint 2**
 
 *2.1 Planejamento:*
+
 O objetivo dessa etapa foi a definição do projeto da solução, composta pela metodologia e projeto de interface. Nessa etapa foi definido o papel de cada integrante da equipe, seguindo a metodologia SCRUM. 
 
+
 *2.2 Execução:*
+
 A partir dessa etapa, a divisāo de tarefas passou a ser feita através do Kanban. A Larissa, Scrum Master, ficou responsável por dividir as responsabilidades de cada integrante da equipe. Larissa desenhou um rascunho no papel de como a aplicaçāo poderia ser desenvolvida, através desse rascunho, o Fabiano desenhou o fluxograma da aplicaçāo utilizando a ferramenta Lucidchart e a Vitória desenvolveu o modelo de telas, utlizando a plataforma Moqups. 
+
 
 *2.3 Evidências:*
 
