@@ -7,6 +7,17 @@ let count = 00;
 
 let timer = false;
 
+var conteudo01Aprendi = 'Aprendi Tema 01.';
+var conteudo02Aprendi = 'Aprendi Tema 02.';
+var conteudo03Aprendi = 'Aprendi Tema 03.';
+var conteudo04Aprendi = 'Aprendi Tema 04.';
+var conteudo05Aprendi = 'Aprendi Tema 05.';
+var conteudo01Revisar = 'Revisar Tema 01.';
+var conteudo02Revisar = 'Revisar Tema 02.';
+var conteudo03Revisar = 'Revisar Tema 03.';
+var conteudo04Revisar = 'Revisar Tema 04.';
+var conteudo05Revisar = 'Revisar Tema 05.';
+
 startStop.addEventListener('click', function () {
     timer = !timer;
 
@@ -58,4 +69,33 @@ function focusTime() {
         document.getElementById('secs').innerHTML = secString;
         setTimeout(focusTime, 10);
     }
+}
+
+function changeText(tema) {
+    
+    if (tema == '01') {
+        document.getElementById("colunaAprendi").innerHTML = conteudo01Aprendi
+        document.getElementById("colunaRevisar").innerHTML = conteudo01Revisar
+    }
+
+    if (tema == '02') {
+        document.getElementById("colunaAprendi").innerHTML = conteudo02Aprendi
+        document.getElementById("colunaRevisar").innerHTML = conteudo02Revisar
+    }
+
+    if (tema == '03') {
+        document.getElementById("colunaAprendi").innerHTML = conteudo03Aprendi
+        document.getElementById("colunaRevisar").innerHTML = conteudo03Revisar
+    }
+    
+    if (tema == '04') {
+        document.getElementById("colunaAprendi").innerHTML = conteudo04Aprendi
+        document.getElementById("colunaRevisar").innerHTML = conteudo04Revisar
+    }
+
+    if (tema == '05') {
+        document.getElementById("colunaAprendi").innerHTML = conteudo05Aprendi
+        document.getElementById("colunaRevisar").innerHTML = conteudo05Revisar
+    }
+
 }

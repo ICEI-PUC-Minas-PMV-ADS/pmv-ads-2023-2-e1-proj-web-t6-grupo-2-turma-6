@@ -21,19 +21,19 @@
     <div class="container">
         <div class="column">
             <h2>Tema</h2>
-            <button class="tema-button" data-tema="Tema 01">Tema 01</button>
-            <button class="tema-button" data-tema="Tema 02">Tema 02</button>
-            <button class="tema-button" data-tema="Tema 03">Tema 03</button>
-            <button class="tema-button" data-tema="Tema 04">Tema 04</button>
-            <button class="tema-button" data-tema="Tema 05">Tema 05</button>
+            <button class="tema-button" data-tema="Tema 01" onclick="changeText('01')">Tema 01</button>
+            <button class="tema-button" data-tema="Tema 02" onclick="changeText('02')">Tema 02</button>
+            <button class="tema-button" data-tema="Tema 03" onclick="changeText('03')">Tema 03</button>
+            <button class="tema-button" data-tema="Tema 04" onclick="changeText('04')">Tema 04</button>
+            <button class="tema-button" data-tema="Tema 05" onclick="changeText('05')">Tema 05</button>
         </div>
-        <div class="column">
+        <div class="column" id="tabelaAprendi">
             <h2>O que aprendi hoje...</h2>
-            <textarea placeholder="Escreva aqui"></textarea>
+            <textarea id="colunaAprendi" placeholder="Escreva aqui"></textarea>
         </div>
-        <div class="column">
+        <div class="column" id="tabelaRevisar">
             <h2>O que preciso revisar...</h2>
-            <textarea placeholder="Escreva aqui"></textarea>
+            <textarea id="colunaRevisar" placeholder="Escreva aqui"></textarea>
         </div>
         <div class="column">
             <h2>Datas Importantes...</h2>
