@@ -3,6 +3,14 @@
 
 ## Protótipo
 
+### Fluxograma
+
+A figura abaixo apresenta o diagrama de navegação, o qual mapeia o fluxo de informações para qualquer processo ou sistema, que o usuário irá realizar nas telas do site proposto. 
+Através dele, são ilustradas as etapas, sucessão e decisões no site Leer. 
+
+![Tela inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145720675/3d0ac358-c0d5-467c-84c4-ae9096902ff8)
+
+
 ### Tela - Login 
 Na tela Login o usuário encontrará os campos para inserir seu e-mail e senha cadastrado para ter acesso a página home 
 
