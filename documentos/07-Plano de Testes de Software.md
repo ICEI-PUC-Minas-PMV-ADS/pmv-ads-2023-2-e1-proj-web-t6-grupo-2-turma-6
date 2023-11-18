@@ -6,6 +6,14 @@ Os requisitos para a realização dos testes de software são:
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
+|Caso de Teste    | CT-X - Cadastro de credenciais |
+|:---|:---|
+| Requisitos Associados | RF-X - O site deve permitir que o usuário faça cadastro com suas credenciais |
+| Objetivo do Teste | Verificar se o usuário consegue cadastrar no site |
+| Passos | -Acessar o site <br/>-Clicar no botão "Se cadastrar" <br/> -Inserir todos os dados requisitados para cadastro <br/> -Clicar no botão "Salvar" |
+| Critérios de êxito | O usuário tem uma conta criada no site Leer |
+| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+
 |Caso de Teste    | CT-X - Login usando credenciais |
 |:---|:---|
 | Requisitos Associados | RF-X - O site deve permitir que o usuário faça login com as credenciais |
