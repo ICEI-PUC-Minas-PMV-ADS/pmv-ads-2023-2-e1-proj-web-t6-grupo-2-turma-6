@@ -47,6 +47,10 @@ body {
     justify-content: space-between;
 }
 
+.tema-details {
+    color: black;
+}
+
 .column {
     flex-basis: 25%;
     background-color: #FFFFFF;
@@ -88,15 +92,34 @@ textarea::placeholder {
     border: none;
     border-radius: 5px;
     padding: 10px;
+    padding-left: 0;
     margin: 5px 0;
     cursor: pointer;
     width: 100%; 
     box-sizing: border-box;
+    list-style: none;
 }
 
+.tema-button:disabled {
+    background-color: #9370db;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+  
 .tema-button:hover {
     background-color: #6b3ebe;
 }
+
+.temaLista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+    border-radius: 2px;
+  }
 
 h3 {
     color: #b48df6;

@@ -7,16 +7,6 @@ let count = 00;
 
 let timer = false;
 
-var conteudo01Aprendi = 'Aprendi Tema 01.';
-var conteudo02Aprendi = 'Aprendi Tema 02.';
-var conteudo03Aprendi = 'Aprendi Tema 03.';
-var conteudo04Aprendi = 'Aprendi Tema 04.';
-var conteudo05Aprendi = 'Aprendi Tema 05.';
-var conteudo01Revisar = 'Revisar Tema 01.';
-var conteudo02Revisar = 'Revisar Tema 02.';
-var conteudo03Revisar = 'Revisar Tema 03.';
-var conteudo04Revisar = 'Revisar Tema 04.';
-var conteudo05Revisar = 'Revisar Tema 05.';
 
 startStop.addEventListener('click', function () {
     timer = !timer;
@@ -71,31 +61,60 @@ function focusTime() {
     }
 }
 
-function changeText(tema) {
-    
-    if (tema == '01') {
-        document.getElementById("colunaAprendi").innerHTML = conteudo01Aprendi
-        document.getElementById("colunaRevisar").innerHTML = conteudo01Revisar
-    }
+let listaTema = JSON.parse(localStorage.getItem('tema')) || [];
+let ultimoIdTema = JSON.parse(localStorage.getItem('ultimoIdTema')) || 0;
+let listaAprendizados = JSON.parse(localStorage.getItem('O que aprendi hoje...')) || [];
+let temaSelecionado = null;
+mostraTema();
 
-    if (tema == '02') {
-        document.getElementById("colunaAprendi").innerHTML = conteudo02Aprendi
-        document.getElementById("colunaRevisar").innerHTML = conteudo02Revisar
-    }
+bt1.onclick = function() {
+  let tema = prompt('Digite o novo tema');
+  let idTema = ultimoIdTema + 1;
+  ultimoIdTema++;
+  listaTema.push({
+    id: idTema,
+    texto: tema
+  });
 
-    if (tema == '03') {
-        document.getElementById("colunaAprendi").innerHTML = conteudo03Aprendi
-        document.getElementById("colunaRevisar").innerHTML = conteudo03Revisar
-    }
-    
-    if (tema == '04') {
-        document.getElementById("colunaAprendi").innerHTML = conteudo04Aprendi
-        document.getElementById("colunaRevisar").innerHTML = conteudo04Revisar
-    }
+  localStorage.setItem('tema', JSON.stringify(listaTema));
+  localStorage.setItem('ultimoIdTema', ultimoIdTema);
+  mostraTema();
+}
 
-    if (tema == '05') {
-        document.getElementById("colunaAprendi").innerHTML = conteudo05Aprendi
-        document.getElementById("colunaRevisar").innerHTML = conteudo05Revisar
-    }
 
+function mostraTema() {
+  ulTemas.innerHTML = '';
+  listaTema.forEach(
+    function(item) {
+      ulTemas.innerHTML += '<li><button class="tema-button" onclick="selecionaTema(' + item.id + ')">' + item.texto + '</button></li>'
+    }
+  );
+}
+
+function selecionaTema(t) {
+    temaSelecionado = listaTema.find(item => item.id == t);
+    temaOQueAprendiHoje.innerHTML = "Tema: " + temaSelecionado.texto;
+    bt2.disabled = false;
+    mostraOQueAprendiHoje();
+}
+
+
+bt2.onclick = function() {
+  let aprendi = prompt('Digite o que você aprendeu');
+  listaAprendizados.push({
+    tema: temaSelecionado.id,
+    texto: aprendi
+  });
+  localStorage.setItem('O que aprendi hoje', JSON.stringify(listaAprendizados));
+  mostraOQueAprendiHoje();
+}
+
+function mostraOQueAprendiHoje () {
+  ulOQueAprendiHoje.innerHTML = '';
+  let aprendizadosDoTema = listaAprendizados.filter(item => item.tema == temaSelecionado.id);
+  aprendizadosDoTema.forEach(
+    function(item) {
+        ulOQueAprendiHoje.innerHTML += '<li>' + item.texto + '</li>';
+    }
+  );
 }
