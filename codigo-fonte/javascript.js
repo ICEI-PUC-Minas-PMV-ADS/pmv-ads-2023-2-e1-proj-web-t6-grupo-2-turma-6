@@ -1,12 +1,11 @@
 let startStop = document.getElementById('startStop');
+let zerarButton = document.getElementById('zerar');
 
-let hour = 00;
-let minute = 00;
-let second = 00;
-let count = 00;
-
+let hour = 0;
+let minute = 0;
+let second = 0;
+let count = 0;
 let timer = false;
-
 
 startStop.addEventListener('click', function () {
     timer = !timer;
@@ -15,6 +14,18 @@ startStop.addEventListener('click', function () {
         focusTime();
     }
 });
+
+zerarButton.addEventListener('click', function () {
+        // Reseta as variáveis quando o botão de zerar é clicado
+        hour = 0;
+        minute = 0;
+        second = 0;
+        count = 0;
+        timer = false;
+
+        // Atualiza o display do cronômetro
+        updateTimerDisplay();
+    });
 
 
 function focusTime() {
@@ -37,6 +48,12 @@ function focusTime() {
             second = 0;
         }
 
+        updateTimerDisplay();
+        setTimeout(focusTime, 10);
+    }
+}
+
+function updateTimerDisplay() {
         let hrString = hour;
         let minString = minute;
         let secString = second;
@@ -59,7 +76,6 @@ function focusTime() {
         document.getElementById('secs').innerHTML = secString;
         setTimeout(focusTime, 10);
     }
-}
 
 let listaTema = JSON.parse(localStorage.getItem('tema')) || [];
 let ultimoIdTema = JSON.parse(localStorage.getItem('ultimoIdTema')) || 0;
