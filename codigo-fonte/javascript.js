@@ -77,60 +77,96 @@ function updateTimerDisplay() {
         setTimeout(focusTime, 10);
     }
 
-let listaTema = JSON.parse(localStorage.getItem('tema')) || [];
-let ultimoIdTema = JSON.parse(localStorage.getItem('ultimoIdTema')) || 0;
-let listaAprendizados = JSON.parse(localStorage.getItem('O que aprendi hoje...')) || [];
-let temaSelecionado = null;
-mostraTema();
-
-bt1.onclick = function() {
-  let tema = prompt('Digite o novo tema');
-  let idTema = ultimoIdTema + 1;
-  ultimoIdTema++;
-  listaTema.push({
-    id: idTema,
-    texto: tema
-  });
-
-  localStorage.setItem('tema', JSON.stringify(listaTema));
-  localStorage.setItem('ultimoIdTema', ultimoIdTema);
-  mostraTema();
-}
-
-
-function mostraTema() {
-  ulTemas.innerHTML = '';
-  listaTema.forEach(
-    function(item) {
-      ulTemas.innerHTML += '<li><button class="tema-button" onclick="selecionaTema(' + item.id + ')">' + item.texto + '</button></li>'
+    let listaTema = JSON.parse(localStorage.getItem('tema')) || [];
+    let ultimoIdTema = JSON.parse(localStorage.getItem('ultimoIdTema')) || 0;
+    let listaAprendizados = JSON.parse(localStorage.getItem('aprendizados')) || [];
+    let listaRevisar = JSON.parse(localStorage.getItem('revisar')) || [];
+    let ListaData = JSON.parse(localStorage.getItem('O que preciso revisar'))
+    let temaSelecionado = null;
+    mostraTema();
+    
+    bt1.onclick = function() {
+      let tema = prompt('Digite o novo tema');
+      let idTema = ultimoIdTema + 1;
+      ultimoIdTema++;
+      listaTema.push({
+        id: idTema,
+        texto: tema
+      });
+    
+      localStorage.setItem('tema', JSON.stringify(listaTema));
+      localStorage.setItem('ultimoIdTema', ultimoIdTema);
+      mostraTema();
     }
-  );
-}
-
-function selecionaTema(t) {
-    temaSelecionado = listaTema.find(item => item.id == t);
-    temaOQueAprendiHoje.innerHTML = "Tema: " + temaSelecionado.texto;
-    bt2.disabled = false;
-    mostraOQueAprendiHoje();
-}
-
-
-bt2.onclick = function() {
-  let aprendi = prompt('Digite o que você aprendeu');
-  listaAprendizados.push({
-    tema: temaSelecionado.id,
-    texto: aprendi
-  });
-  localStorage.setItem('O que aprendi hoje', JSON.stringify(listaAprendizados));
-  mostraOQueAprendiHoje();
-}
-
-function mostraOQueAprendiHoje () {
-  ulOQueAprendiHoje.innerHTML = '';
-  let aprendizadosDoTema = listaAprendizados.filter(item => item.tema == temaSelecionado.id);
-  aprendizadosDoTema.forEach(
-    function(item) {
-        ulOQueAprendiHoje.innerHTML += '<li>' + item.texto + '</li>';
+    
+    
+    function mostraTema() {
+      ulTemas.innerHTML = '';
+      listaTema.forEach(
+        function(item) {
+          ulTemas.innerHTML += '<li><button class="tema-button" onclick="selecionaTema(' + item.id + ')">' + item.texto + '</button></li>'
+        }
+      );
     }
-  );
-}
+    
+    function selecionaTema(t) {
+        temaSelecionado = listaTema.find(item => item.id == t);
+        temaOQueAprendiHoje.innerHTML = "Tema: " + temaSelecionado.texto;
+        temaOquePrecisoRevisar.innerHTML = "Tema: " + temaSelecionado.texto;
+        bt2.disabled = false;
+        bt3.disabled = false;
+        bt4.disabled = false;
+        mostraOQueAprendiHoje();
+        mostraOQuePrecisoRevisar();
+    }
+    
+    
+    bt2.onclick = function() {
+      let aprendi = prompt('Digite o que você aprendeu');
+      listaAprendizados.push({
+        tema: temaSelecionado.id,
+        texto: aprendi
+      });
+      localStorage.setItem('aprendizados', JSON.stringify(listaAprendizados));
+      mostraOQueAprendiHoje();
+    }
+    
+    function mostraOQueAprendiHoje () {
+      ulOQueAprendiHoje.innerHTML = '';
+      let aprendizadosDoTema = listaAprendizados.filter(item => item.tema == temaSelecionado.id);
+      aprendizadosDoTema.forEach(
+        function(item) {
+            ulOQueAprendiHoje.innerHTML += '<li>' + item.texto + '</li>';
+        }
+      );
+    }
+    
+    bt3.onclick = function() {
+        let aprendi = prompt ('Digite o que você precisa revisar');
+        listaRevisar.push ({
+            tema: temaSelecionado.id,
+            texto: aprendi
+          });
+          localStorage.setItem('revis ar', JSON.stringify(listaRevisar));
+        mostraOQuePrecisoRevisar();
+    }
+    
+    function mostraOQuePrecisoRevisar () {
+        ulOQuePrecisoRevisar.innerHTML = '';
+        let revisarDoTema = listaRevisar.filter(item => item.tema == temaSelecionado.id);
+        revisarDoTema.forEach(
+          function(item) {
+            ulOQuePrecisoRevisar.innerHTML += '<li>'+ item.texto + '</li>';
+          }
+        );
+    }
+
+    // bt4.onclick.onclick =function() {
+    //     let data = prompt ('Digite o evento dessa data');
+    //     ListaData.push ({
+    //         tema: temaSelecionado.id,
+    //         texto: aprendi
+    //     })
+    //     localStorage.setItem('O que preciso lembrar', JSON.stringify(ListaData));
+    //     mostraOQuePrecisoLembrar();
+    // }

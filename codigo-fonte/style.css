@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-    color: #dacafb;
+    color: black;
     padding: 70px 0;
     max-width: 1200px;
     margin: 20px auto;
@@ -48,7 +48,7 @@ body {
 }
 
 .tema-details {
-    color: black;
+    color: black
 }
 
 .column {
@@ -59,8 +59,8 @@ body {
     margin-left: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height:55vh; 
 }
-
 
 .column h2 {
     text-align: center;

@@ -20,13 +20,12 @@
     </div>
     
     <div class="container">
-        <div class="column">           
+        <div class="column">
             <button class="tema-button" id="bt1">Adicionar Tema</button>
             <hr class="rounded">
             <ul id="ulTemas" class="temaLista"></ul>
-            
         </div>
-            
+    
         <div class="column">
             <button class="tema-button" id="bt2" disabled>O que aprendi hoje</button>
             <hr class="rounded">
@@ -35,24 +34,22 @@
                 <ul id="ulOQueAprendiHoje"></ul>
             </div>
         </div>
-        
+
         <div class="column">
-            <h2>O que preciso revisar</h2>
-            <textarea placeholder="Escreva aqui"></textarea>
+            <button class="tema-button" id="bt3" disabled>O que preciso revisar</button>
+            <hr class="rounded">
+            <div class="tema-details"></div>
+            <p id="temaOquePrecisoRevisar"><i>Selecione um tema</i></p>
+            <ul id="ulOQuePrecisoRevisar"></ul>
         </div>
+    
         <div class="column">
-            <h2>Datas Importantes...</h2>
+            <button class="tema-button" id="bt4" disabled>Datas Importantes</button>
             <div class="data-entry">
-                <input type="date" placeholder="Data">
-                <textarea placeholder="Escreva aqui"></textarea>
-            </div>
-            <div class="data-entry">
-                <input type="date" placeholder="Data">
-                <textarea placeholder="Escreva aqui"></textarea>
-            </div>
-            <div class="data-entry">
-                <input type="date" placeholder="Data">
-                <textarea placeholder="Escreva aqui"></textarea>
+                <hr class="rounded">
+                <input type="date" id="dataImportante" placeholder="Data">
+                <ul id="DatasImportantes"></ul>
+
             </div>
         </div>
     </div>
