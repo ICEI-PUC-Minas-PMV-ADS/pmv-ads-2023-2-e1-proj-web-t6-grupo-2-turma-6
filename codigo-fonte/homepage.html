@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Leer</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
     <div class="top-bar">
         <img src="./images/leer-logo.png" height="100px" />
-        <div class="focus-time"> 
+        <div class="focus-time">
             <button class="time-button" id="startStop">Focus Time</button>
             <button class="time-button" id="zerar">Zerar</button>
             <p class="time"><i class="material-icons">timer</i>
@@ -18,14 +20,14 @@
             </p>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="column">
             <button class="tema-button" id="bt1">Adicionar Tema</button>
             <hr class="rounded">
             <ul id="ulTemas" class="temaLista"></ul>
         </div>
-    
+
         <div class="column">
             <button class="tema-button" id="bt2" disabled>O que aprendi hoje</button>
             <hr class="rounded">
@@ -42,18 +44,18 @@
             <p id="temaOquePrecisoRevisar"><i>Selecione um tema</i></p>
             <ul id="ulOQuePrecisoRevisar"></ul>
         </div>
-    
+
         <div class="column">
             <button class="tema-button" id="bt4" disabled>Datas Importantes</button>
             <div class="data-entry">
                 <hr class="rounded">
-                <input type="date" id="dataImportante" placeholder="Data">
-                <ul id="DatasImportantes"></ul>
-
+                <input type="date" id="temaOquePrecisoData" placeholder="Data">
+                <ul id="ulDatasImportantes"></ul>
             </div>
         </div>
     </div>
 
     <script src="./javascript.js"></script>
 </body>
+
 </html>
