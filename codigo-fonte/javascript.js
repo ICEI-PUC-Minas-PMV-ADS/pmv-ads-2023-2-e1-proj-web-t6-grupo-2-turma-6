@@ -86,35 +86,39 @@ bt1.onclick = function () {
 
 function mostraTema() {
     ulTemas.innerHTML = '';
-    listaTema.forEach(
-        function (item) {
-            let listItem = document.createElement('li');
-            let temaButton = document.createElement('button');
-            temaButton.classList.add('tema-button');
-            temaButton.innerText = item.texto;
-    
-            let editButton = document.createElement('button');
-            editButton.id = 'editButton_' + item.id;
-            editButton.classList.add('editButtonClass');
-            editButton.insertAdjacentHTML('beforeend', '&#9998;');
-            editButton.addEventListener('click', function () {
-                editarTema(item.id);
-            });
-    
-            let deleteButton = document.createElement('button');
-            deleteButton.id = 'deleteButton_' + item.id;
-            deleteButton.classList.add('deleteButtonClass');
-            deleteButton.insertAdjacentHTML('beforeend', '&#10006;');
-            deleteButton.addEventListener('click', function () {
-                excluirTema(item.id);
-            });
-    
-            listItem.appendChild(temaButton);
-            listItem.appendChild(editButton);
-            listItem.appendChild(deleteButton);
-            ulTemas.appendChild(listItem);
+    listaTema.forEach(function (item) {
+        let listItem = document.createElement('li');
+        
+        let temaButton = document.createElement('button');
+        temaButton.classList.add('tema-button');
+        temaButton.innerText = item.texto;
+        temaButton.addEventListener('click', function () {
+            selecionaTema(item.id);
         });
-    }
+        
+        let editButton = document.createElement('button');
+        editButton.id = 'editButton_' + item.id;
+        editButton.classList.add('editButtonClass');
+        editButton.insertAdjacentHTML('beforeend', '&#9998;');
+        editButton.addEventListener('click', function () {
+            editarTema(item.id);
+        });
+        
+        let deleteButton = document.createElement('button');
+        deleteButton.id = 'deleteButton_' + item.id;
+        deleteButton.classList.add('deleteButtonClass');
+        deleteButton.insertAdjacentHTML('beforeend', '&#10006;');
+        deleteButton.addEventListener('click', function () {
+            excluirTema(item.id);
+        });
+
+        listItem.appendChild(temaButton);
+        listItem.appendChild(editButton);
+        listItem.appendChild(deleteButton);
+        
+        ulTemas.appendChild(listItem);
+    });
+}
 
     function editarTema(id) {
         let novoTexto = prompt('Digite o novo texto para o tema');
@@ -137,7 +141,7 @@ function mostraTema() {
         }
     }
 
-    
+
 function selecionaTema(t) {
     temaSelecionado = listaTema.find(item => item.id == t);
     temaOQueAprendiHoje.innerHTML = "Tema: " + temaSelecionado.texto;
