@@ -209,3 +209,85 @@ h3 {
         height: 200px;
     }
 }
+
+
+/*CSS REFERENTE AO CRIAR CONTA */
+    
+    #criarconta-body {
+        background-color: #dacafb;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #conta-h1{
+        color: #dacafb;
+    }
+
+    #conta-form {
+        max-width: 50%;
+        background: white;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 18px;
+        border-radius: 10px;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    #conta-label {
+        margin: 20px; 
+        display: block;
+    }
+
+    #conta-label input {
+        background-color: #dacafb;
+        padding: 10px;
+        font-size: medium;
+        color: white;
+        border-color:#b48df6;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 5px;
+        margin: 10px;
+        
+    }
+
+    #conta-label span {
+        padding: 10px;
+        font-size: medium;
+        color: #b48df6;
+        margin: 10px;
+        display: block;
+
+    }
+    #botaoconta {
+        cursor: pointer;
+        background-color: #b48df6;
+        color: white;
+        border-radius: 2px;
+        padding: 8px 5px;
+        margin-top: 10px;
+        margin-left: 210px;
+        font-size: 16px;
+        font-style: bold;
+        display: block;
+    
+        
+      
+    }
+    
+    #botaoconta:hover {
+        background-color: #6b3ebe;
+    }
+    
+    a {
+        transition: .5s;
+        cursor: pointer;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b48df6;
+        padding: 50px;
+        display: block;
+    
+    }
