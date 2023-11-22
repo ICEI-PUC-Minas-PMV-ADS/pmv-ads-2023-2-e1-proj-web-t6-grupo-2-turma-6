@@ -110,6 +110,19 @@ textarea::placeholder {
     background-color: #6b3ebe;
 }
 
+.editButtonClass {
+    border: none ;
+    background-color: #8b51f5;
+    color: #fff
+ 
+}
+
+.deleteButtonClass {
+    border: none;
+    background-color: #8b51f5;
+    color: #fff
+}
+
 .temaLista {
     list-style-type: none;
     padding: 0;

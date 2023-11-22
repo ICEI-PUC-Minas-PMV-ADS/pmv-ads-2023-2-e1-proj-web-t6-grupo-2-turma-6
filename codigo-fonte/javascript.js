@@ -19,7 +19,6 @@ startStop.addEventListener('click', function () {
 });
 
 zerarButton.addEventListener('click', function () {
-    // Reseta as variáveis quando o botão de zerar é clicado
     hour = 0;
     minute = 0;
     second = 0;
@@ -89,11 +88,56 @@ function mostraTema() {
     ulTemas.innerHTML = '';
     listaTema.forEach(
         function (item) {
-            ulTemas.innerHTML += '<li><button class="tema-button" onclick="selecionaTema(' + item.id + ')">' + item.texto + '</button></li>'
-        }
-    );
-}
+            let listItem = document.createElement('li');
+            let temaButton = document.createElement('button');
+            temaButton.classList.add('tema-button');
+            temaButton.innerText = item.texto;
+    
+            let editButton = document.createElement('button');
+            editButton.id = 'editButton_' + item.id;
+            editButton.classList.add('editButtonClass');
+            editButton.insertAdjacentHTML('beforeend', '&#9998;');
+            editButton.addEventListener('click', function () {
+                editarTema(item.id);
+            });
+    
+            let deleteButton = document.createElement('button');
+            deleteButton.id = 'deleteButton_' + item.id;
+            deleteButton.classList.add('deleteButtonClass');
+            deleteButton.insertAdjacentHTML('beforeend', '&#10006;');
+            deleteButton.addEventListener('click', function () {
+                excluirTema(item.id);
+            });
+    
+            listItem.appendChild(temaButton);
+            listItem.appendChild(editButton);
+            listItem.appendChild(deleteButton);
+            ulTemas.appendChild(listItem);
+        });
+    }
 
+    function editarTema(id) {
+        let novoTexto = prompt('Digite o novo texto para o tema');
+        if (novoTexto !== null) {
+            let temaIndex = listaTema.findIndex(item => item.id === id);
+            if (temaIndex !== -1) {
+                listaTema[temaIndex].texto = novoTexto;
+                localStorage.setItem('tema', JSON.stringify(listaTema));
+                mostraTema();
+            }
+        }
+    }
+    
+    function excluirTema(id) {
+        let confirmarExclusao = confirm('Tem certeza que deseja excluir este tema?');
+        if (confirmarExclusao) {
+            listaTema = listaTema.filter(item => item.id !== id);
+            localStorage.setItem('tema', JSON.stringify(listaTema));
+            mostraTema();
+        }
+    }
+
+    
 function selecionaTema(t) {
     temaSelecionado = listaTema.find(item => item.id == t);
     temaOQueAprendiHoje.innerHTML = "Tema: " + temaSelecionado.texto;
