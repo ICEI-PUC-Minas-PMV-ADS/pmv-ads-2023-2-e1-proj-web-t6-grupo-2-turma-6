@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+</head>
+<body>
+
+    <form action="https://api.sheetmonkey.io/form/u5LRS21XZJZZ1WNXjkc3oF" method="post">
+
+        <h1>Crie sua conta no LEER</h1>
+
+        <label>
+            <span>Qual o seu nome?</span>
+            <input type="text" name="Nome do usuário">
+        </label>
+
+        <label>
+            <span>Qual seu melhor e-mail?</span>
+            <input type="email" name="E-mail do usuário">
+        </label>
+
+        <div>
+            <span>Escolha a sua senha</span>
+            <input type="password">
+        </div>
+
+        <button type="submit">Criar minha conta no LEER</button>
+
+        <a href="index.html">Fazer Login</a>
+
+
+    </form>
+    
+</body>
+</html>
