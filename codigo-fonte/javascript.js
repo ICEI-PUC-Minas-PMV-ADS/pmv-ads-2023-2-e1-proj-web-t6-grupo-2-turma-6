@@ -6,12 +6,15 @@ let minute = 0;
 let second = 0;
 let count = 0;
 let timer = false;
+let timerInterval;
 
 startStop.addEventListener('click', function () {
     timer = !timer;
 
     if (timer) {
-        focusTime();
+        timerInterval = setInterval(focusTime, 10);
+    } else {
+        clearInterval(timerInterval);
     }
 });
 
@@ -21,9 +24,6 @@ zerarButton.addEventListener('click', function () {
     minute = 0;
     second = 0;
     count = 0;
-    timer = false;
-
-    // Atualiza o display do cronômetro
     updateTimerDisplay();
 });
 
@@ -49,32 +49,17 @@ function focusTime() {
         }
 
         updateTimerDisplay();
-        setTimeout(focusTime, 10);
     }
 }
 
 function updateTimerDisplay() {
-    let hrString = hour;
-    let minString = minute;
-    let secString = second;
-    let countString = count;
-
-    if (hour < 10) {
-        hrString = "0" + hrString;
-    }
-
-    if (minute < 10) {
-        minString = "0" + minString;
-    }
-
-    if (second < 10) {
-        secString = "0" + secString;
-    }
-
+    let hrString = hour < 10 ? "0" + hour : hour;
+    let minString = minute < 10 ? "0" + minute : minute;
+    let secString = second < 10 ? "0" + second : second;
+    
     document.getElementById('hours').innerHTML = hrString;
     document.getElementById('mins').innerHTML = minString;
     document.getElementById('secs').innerHTML = secString;
-    setTimeout(focusTime, 10);
 }
 
 let listaTema = JSON.parse(localStorage.getItem('tema')) || [];
