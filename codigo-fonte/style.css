@@ -123,6 +123,17 @@ textarea::placeholder {
     color: #fff
 }
 
+.editarButton_ {
+    border: none ;
+    background-color:#fff;
+    color:#8b51f5;
+}
+
+.excluirButton_ {
+    border: none;
+    background-color: #fff;
+    color:#8b51f5;
+}
 .temaLista {
     list-style-type: none;
     padding: 0;

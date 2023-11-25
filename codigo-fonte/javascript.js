@@ -157,7 +157,9 @@ function selecionaTema(t) {
 
 bt2.onclick = function () {
     let aprendi = prompt('Digite o que você aprendeu');
+    let idAprendizado = 'aprendizado_' + (listaAprendizados.length + 1); 
     listaAprendizados.push({
+        id: idAprendizado,
         tema: temaSelecionado.id,
         texto: aprendi
     });
@@ -165,39 +167,125 @@ bt2.onclick = function () {
     mostraOQueAprendiHoje();
 }
 
+function editarAprendizado(id) {
+    let novoTexto = prompt('Digite o novo texto para o aprendizado');
+    if (novoTexto !== null) {
+        let aprendizado = listaAprendizados.find(item => item.tema === temaSelecionado.id && item.id === id);
+        if (aprendizado) {
+            aprendizado.texto = novoTexto;
+            localStorage.setItem('aprendizados', JSON.stringify(listaAprendizados));
+            mostraOQueAprendiHoje();
+        }
+    }
+}
+
+function excluirAprendizado(id) {
+    let confirmarExclusao = confirm('Tem certeza que deseja excluir este aprendizado?');
+    if (confirmarExclusao) {
+        listaAprendizados = listaAprendizados.filter(item => !(item.tema === temaSelecionado.id && item.id === id));
+        localStorage.setItem('aprendizados', JSON.stringify(listaAprendizados));
+        mostraOQueAprendiHoje();
+    }
+}
+
 function mostraOQueAprendiHoje() {
     ulOQueAprendiHoje.innerHTML = '';
     let aprendizadosDoTema = listaAprendizados.filter(item => item.tema == temaSelecionado.id);
-    aprendizadosDoTema.forEach(
-        function (item) {
-            ulOQueAprendiHoje.innerHTML += '<li>' + item.texto + '</li>';
-        }
-    );
+    aprendizadosDoTema.forEach(function (item) {
+        let listItem = document.createElement('li');
+        listItem.innerText = item.texto;
+
+        let editarButton = document.createElement('button');
+        editarButton.classList.add('editarButton_'); // Adiciona a classe
+        editarButton.innerHTML = '&#9998;';
+        editarButton.style.fontSize = '10px';
+        editarButton.addEventListener('click', function () {
+            editarAprendizado(item.id);
+        });
+
+        let excluirButton = document.createElement('button');
+        excluirButton.classList.add('excluirButton_'); // Adiciona a classe
+        excluirButton.innerHTML = '&#10006;';
+        excluirButton.style.fontSize = '10px';
+        excluirButton.addEventListener('click', function () {
+            excluirAprendizado(item.id);
+        });
+
+        listItem.appendChild(editarButton);
+        listItem.appendChild(excluirButton);
+
+        ulOQueAprendiHoje.appendChild(listItem);
+    });
 }
 
 bt3.onclick = function () {
-    let aprendi = prompt('Digite o que você precisa revisar');
+    let revisar = prompt('Digite o que você precisa revisar');
+    let idRevisar = 'revisar_' + Date.now();
     listaRevisar.push({
+        id: idRevisar,
         tema: temaSelecionado.id,
-        texto: aprendi
+        texto: revisar
     });
-    localStorage.setItem('revis ar', JSON.stringify(listaRevisar));
+    localStorage.setItem('revisar', JSON.stringify(listaRevisar));
     mostraOQuePrecisoRevisar();
+}
+
+function editarRevisar(id) {
+    let novoTexto = prompt('Digite o novo texto para a revisão');
+    if (novoTexto !== null) {
+        let revisarIndex = listaRevisar.findIndex(item => item.tema === temaSelecionado.id && item.id === id);
+        if (revisarIndex !== -1) {
+            listaRevisar[revisarIndex].texto = novoTexto;
+            localStorage.setItem('revisar', JSON.stringify(listaRevisar));
+            mostraOQuePrecisoRevisar();
+        }
+    }
+}
+
+function excluirRevisar(id) {
+    let confirmarExclusao = confirm('Tem certeza que deseja excluir esta revisão?');
+    if (confirmarExclusao) {
+        listaRevisar = listaRevisar.filter(item => !(item.tema === temaSelecionado.id && item.id === id));
+        localStorage.setItem('revisar', JSON.stringify(listaRevisar));
+        mostraOQuePrecisoRevisar();
+    }
 }
 
 function mostraOQuePrecisoRevisar() {
     ulOQuePrecisoRevisar.innerHTML = '';
     let revisarDoTema = listaRevisar.filter(item => item.tema == temaSelecionado.id);
-    revisarDoTema.forEach(
-        function (item) {
-            ulOQuePrecisoRevisar.innerHTML += '<li>' + item.texto + '</li>';
-        }
-    );
+    revisarDoTema.forEach(function (item) {
+        let listItem = document.createElement('li');
+        listItem.innerText = item.texto;
+
+        let editarButton = document.createElement('button');
+        editarButton.classList.add('editarButton_'); 
+        editarButton.innerHTML = '&#9998;';
+        editarButton.style.fontSize = '10px';
+        editarButton.addEventListener('click', function () {
+            editarRevisar(item.id);
+        });
+
+        let excluirButton = document.createElement('button');
+        excluirButton.classList.add('excluirButton_');
+        excluirButton.innerHTML = '&#10006;';
+        excluirButton.style.fontSize = '10px';
+        excluirButton.addEventListener('click', function () {
+            excluirRevisar(item.id);
+        });
+
+        listItem.appendChild(editarButton);
+        listItem.appendChild(excluirButton);
+
+        ulOQuePrecisoRevisar.appendChild(listItem);
+    });
 }
 
 bt4.onclick = function () {
     let data = prompt('Digite o evento dessa data');
+    let idData = 'data_' + Date.now();
     listaData.push({
+        id: idData,
         tema: temaSelecionado.id,
         texto: data
     });
@@ -205,12 +293,54 @@ bt4.onclick = function () {
     mostraOQuePrecisoLembrar();
 }
 
+function editarData(id) {
+    let novoTexto = prompt('Digite o novo evento para esta data');
+    if (novoTexto !== null) {
+        let dataIndex = listaData.findIndex(item => item.tema === temaSelecionado.id && item.id === id);
+        if (dataIndex !== -1) {
+            listaData[dataIndex].texto = novoTexto;
+            localStorage.setItem('datas', JSON.stringify(listaData));
+            mostraOQuePrecisoLembrar();
+        }
+    }
+}
+
+function excluirData(id) {
+    let confirmarExclusao = confirm('Tem certeza que deseja excluir este evento?');
+    if (confirmarExclusao) {
+        listaData = listaData.filter(item => !(item.tema === temaSelecionado.id && item.id === id));
+        localStorage.setItem('datas', JSON.stringify(listaData));
+        mostraOQuePrecisoLembrar();
+    }
+}
+
 function mostraOQuePrecisoLembrar() {
     ulDatasImportantes.innerHTML = '';
     let dataDoTema = listaData.filter(item => item.tema == temaSelecionado.id);
-    dataDoTema.forEach(
-        function (item) {
-            ulDatasImportantes.innerHTML += '<li>' + item.texto + '</li>';
-        }
-    );
+    dataDoTema.forEach(function (item) {
+        let listItem = document.createElement('li');
+        listItem.innerText = item.texto;
+
+        let editarButton = document.createElement('button');
+        editarButton.classList.add('editarButton_');
+        editarButton.innerHTML = '&#9998;';
+        editarButton.style.fontSize = '10px';
+        editarButton.addEventListener('click', function () {
+            editarData(item.id);
+        });
+
+        let excluirButton = document.createElement('button');
+        excluirButton.classList.add('excluirButton_');
+        excluirButton.innerHTML = '&#10006;';
+        excluirButton.style.fontSize = '10px';
+        excluirButton.addEventListener('click', function () {
+            excluirData(item.id);
+        });
+
+        listItem.appendChild(editarButton);
+        listItem.appendChild(excluirButton);
+
+        ulDatasImportantes.appendChild(listItem);
+        
+    });
 }
