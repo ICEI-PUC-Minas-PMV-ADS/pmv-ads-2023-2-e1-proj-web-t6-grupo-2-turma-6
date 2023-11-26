@@ -10,9 +10,23 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Resultados obtidos | É possível inserir, editar e excluir um novo tema  |
 | Responsável pela execução do caso de Teste | Simony Larissa Bueno  |
 
-1- Na página inicial ao lado esquerdo na coluna Temas clicar no botão "Adicionar um tema"
-2- Clicar no campo nome do tema
-3- Digitar o nome escolhido
-4- Clicar no botão salvar 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/1f9a4ebd-b74d-46dc-bdf1-5c55ca830eb9
+- Na página inicial ao lado esquerdo na coluna Temas clicar no botão "Adicionar um tema"
+- Clicar no campo nome do tema
+- Digitar o nome escolhido
+- Clicar no botão salvar 
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/d89c9675-d2b5-4fcc-960f-55e09bc64de2
+
+
+
+
+
+
+
+
+
+
 
