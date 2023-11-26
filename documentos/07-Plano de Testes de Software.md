@@ -27,7 +27,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Requisitos Associados | RF-03 - Incluir, editar, excluir tema |
 | Objetivo do Teste | Verificar se o usuário consegue adicionar um novo tema |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no botão "Adicionar um tema +" <br/> -Clicar no campo nome do tema <br/> -Digitar o nome escolhido <br/> -Clicar no botão salvar para salva-lo |
-| Critérios de êxito | Um novo tema é criado na coluna Tema |
+| Critérios de êxito | Um novo tema é criado na coluna Tema e o tema é armazenado no localstorage  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
 |Caso de Teste    | CT-X - Adicionar e salvar o conteúdo "O que aprendi hoje..." no tema escolhido|
@@ -35,7 +35,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Requisitos Associados | RF-X O usuário deve ser capaz de adicionar o conteúdo que aprendeu no tema escolhido |
 | Objetivo do Teste | Verificar se o usuário consegue adicionar o conteúdo aprendido do dia no tema escolhido |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "O que aprendi hoje..." clicar  na area de texto <br/> - Inserir o conteúdo <br/>- Clicar no botão salvar |
-| Critérios de êxito | O conteúdo é salvo na coluna "O que aprendi hoje..."  |
+| Critérios de êxito | O conteúdo é salvo na coluna "O que aprendi hoje..." e no localstorage  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
 |Caso de Teste    | CT-X - Adicionar e salvar o conteúdo "O que preciso revisar..." no tema escolhido|
@@ -43,7 +43,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Requisitos Associados | RF-X O usuário deve ser capaz de adicionar o conteúdo que precisa revisar no tema escolhido |
 | Objetivo do Teste | Verificar se o usuário consegue adicionar o conteúdo que precisa revisar do tema escolhido |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "O que preciso revisar..." clicar  na area de texto <br/> - Inserir o conteúdo <br/>- Clicar no botão salvar |
-| Critérios de êxito | O conteúdo é salvo na coluna "O que preciso revisar..."  |
+| Critérios de êxito | O conteúdo é salvo na coluna "O que preciso revisar..." e no localstorage  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
 |Caso de Teste    | CT-X - Adicionar e salvar "Datas importantes..." no tema escolhido|
@@ -51,7 +51,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Requisitos Associados | RF-X O usuário deve ser capaz de adicionar as datas importantes no tema escolhido |
 | Objetivo do Teste | Verificar se o usuário consegue adicionar as datas importantes no tema escolhido |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "Datas importantes..." clicar  na botão calendario <br/> -Inserir a data desejada <br/> -Clicar no campo "Escreva aqui" <br/> - Inserir a descrição da data importante <br/>- Clicar no botão salvar |
-| Critérios de êxito | A data importante é salva na coluna "Datas importantes..."  |
+| Critérios de êxito | A data importante é salva na coluna "Datas importantes..." e no localstorage   |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
 |Caso de Teste    | CT-X - Funcionamento do botão "Focus Time"|
@@ -59,7 +59,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Requisitos Associados | RF-X O site deve permitir que o usuário seja capaz de cronometrar seu tempo de estudo, parar e zerar o cronômetro|
 | Objetivo do Teste | Verificar se o usuário consegue iniciar, parar e zerar o cronômetro  |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado direito superior <br/> -Clicar no botão "Focus Time" para iniciar o cronômetro <br/> -Clicar no botão "Stop" para parar <br/> -Clicar no botão "Zerar" para zerar <br/> |
-| Critérios de êxito | A data importante é salva na coluna "Datas importantes..."  |
+| Critérios de êxito | O usuário é capaz de medir o seu tempo de estudo |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
 
