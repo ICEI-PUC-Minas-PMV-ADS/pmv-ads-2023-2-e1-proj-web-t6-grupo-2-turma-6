@@ -22,9 +22,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | O ususário é direcionado a página inicial |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
-|Caso de Teste    | CT-X - Criar e salvar um novo tema |
+|Caso de Teste    | CT-X - Criar, editar e salvar um novo tema |
 |:---|:---|
-| Requisitos Associados | RF-X - O site deve permitir que o usuário adicione um novo tema |
+| Requisitos Associados | RF-03 - Incluir, editar, excluir tema |
 | Objetivo do Teste | Verificar se o usuário consegue adicionar um novo tema |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no botão "Adicionar um tema +" <br/> -Clicar no campo nome do tema <br/> -Digitar o nome escolhido <br/> -Clicar no botão salvar para salva-lo |
 | Critérios de êxito | Um novo tema é criado na coluna Tema |
