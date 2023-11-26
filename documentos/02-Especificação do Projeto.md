@@ -60,6 +60,7 @@
 | RF-02 |  Permitir ao usuário fazer anotações sobre disciplinas ou tópicos de estudos, anotando o que aprendeu o que precisa apender  e prazos de entrega de atividades ou data de avaliações.                      | ALTA   | 
 | RF-03 |  O usuário deve ser capaz de incluir, editar e excluir suas tarefas.                      | ALTA  | 
 |RF-04| A aplicaçāo deve permitir o usuário cronometrar o tempo de estudo, clicando sobre o botāo focus time.| MÉDIA|
+|RF-05| O usuário deve cadastrar o e-mail e senha para criar uma conta através de uma pagina crie sua conta | ALTA|
 
 
 
