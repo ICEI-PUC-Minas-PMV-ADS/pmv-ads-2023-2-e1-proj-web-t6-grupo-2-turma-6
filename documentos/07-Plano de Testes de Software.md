@@ -12,7 +12,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Verificar se o usuário consegue cadastrar no site |
 | Passos | -Acessar o site <br/>-Clicar no botão "Se cadastrar" <br/> -Inserir todos os dados requisitados para cadastro <br/> -Clicar no botão "Salvar" |
 | Critérios de êxito | O usuário tem uma conta criada no site Leer |
-| Responsável pela elaborar do caso de Teste | Larissa Buenno |
+| Responsável pela elaborar do caso de Teste | Mariana Sayuri |
 
 |Caso de Teste    | CT-01 - Login usando credenciais |
 |:---|:---|
@@ -20,7 +20,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Verificar se o usuário consegue fazer o login |
 | Passos | -Acessar o site <br/>-Clicar no campo e-mail adress e inserir o e-mail cadastrado <br/>-Clicar no campo password e inserir a senha cadastrada <br/>-Clicar no botão "Entrar no meu LEER"|
 | Critérios de êxito | O ususário é direcionado a página inicial |
-| Responsável pela elaborar do caso de Teste | Larissa Buenno |
+| Responsável pela elaborar do caso de Teste | Vitoria Pilon |
 
 |Caso de Teste    | CT-03 - Criar, editar e salvar um novo tema |
 |:---|:---|
@@ -28,29 +28,29 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Verificar se o usuário consegue adicionar um novo tema |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no botão "Adicionar um tema +" <br/> -Clicar no campo nome do tema <br/> -Digitar o nome escolhido <br/> -Clicar no botão salvar para salva-lo |
 | Critérios de êxito | Um novo tema é criado na coluna Tema e o tema é armazenado no localstorage  |
-| Responsável pela elaborar do caso de Teste | Vitoria Pilon |
+| Responsável pela elaborar do caso de Teste | Larissa Buenno |
 
-|Caso de Teste    | CT-02 - Adicionar, salvar e editar o conteúdo "O que aprendi hoje..." no tema escolhido|
+|Caso de Teste    | CT-02 - Adicionar, salvar, editar e excluir o conteúdo "O que aprendi hoje..." no tema escolhido|
 |:---|:---|
-| Requisitos Associados | RF-02 O usuário deve ser capaz de adicionar, salvar e editar o conteúdo que aprendeu no tema escolhido |
-| Objetivo do Teste | Verificar se o usuário consegue adicionar, salvar e editar o conteúdo aprendido do dia no tema escolhido |
-| Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "O que aprendi hoje" no botão "O que aprendi hoje" <br/> - Inserir o conteúdo na caixa de texto <br/>- Clicar no botão ok para salvar |
+| Requisitos Associados | RF-02 O usuário deve ser capaz de adicionar, salvar, editar e excluir o conteúdo que aprendeu no tema escolhido |
+| Objetivo do Teste | Verificar se o usuário consegue adicionar, salvar, editar e excluir o conteúdo aprendido do dia no tema escolhido |
+| Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "O que aprendi hoje" no botão "O que aprendi hoje" <br/> - Inserir o conteúdo na caixa de texto <br/>- Clicar no botão ok para salvar <br/> - Clicar no icone editar, inserir o conteúdo e clicar em ok para salvar <br/> - Para excluir clicar no icone X e clicar em ok para mensagem "Tem certeza que deseja excluir este aprendizado?" |
 | Critérios de êxito | O conteúdo é salvo na coluna "O que aprendi hoje" e no localstorage  |
-| Responsável pela elaborar do caso de Teste | Vitoria Pilon |
+| Responsável pela elaborar do caso de Teste | Larissa Buenno |
 
-|Caso de Teste    | CT-02 - Adicionar, salvar e editar o conteúdo "O que preciso revisar..." no tema escolhido|
+|Caso de Teste    | CT-02 - Adicionar, salvar, editar e excluir  o conteúdo "O que preciso revisar..." no tema escolhido|
 |:---|:---|
-| Requisitos Associados | RF-02 O usuário deve ser capaz de adicionar, salvar e editar o conteúdo que precisa revisar no tema escolhido |
-| Objetivo do Teste | Verificar se o usuário consegue adicionar, editar e salvar o conteúdo que precisa revisar do tema escolhido |
-| Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "O que preciso revisar" clicar  no botão "O que preciso revisar"<br/> - Inserir o conteúdo na caixa de texto  <br/>- Clicar no botão ok para salvar |
+| Requisitos Associados | RF-02 O usuário deve ser capaz de adicionar, salvar, editar e excluir o conteúdo que precisa revisar no tema escolhido |
+| Objetivo do Teste | Verificar se o usuário consegue adicionar, salvar, editar e excluir o conteúdo que precisa revisar do tema escolhido |
+| Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "O que preciso revisar" clicar  no botão "O que preciso revisar"<br/> - Inserir o conteúdo na caixa de texto  <br/>- Clicar no botão ok para salvar  <br/> - Clicar no icone editar, inserir o conteúdo e clicar em ok para salvar <br/> - Para excluir clicar no icone X e clicar em ok para mensagem "Tem certeza que deseja excluir esta revisão?"  |
 | Critérios de êxito | O conteúdo é salvo na coluna "O que preciso revisar" e no localstorage  |
 | Responsável pela elaborar do caso de Teste | Vitoria Pilon |
 
-|Caso de Teste    | CT-02 - Adicionar, salvar e editar "Datas importantes..." no tema escolhido|
+|Caso de Teste    | CT-02 - Adicionar, salvar, editar e excluir  "Datas importantes..." no tema escolhido|
 |:---|:---|
-| Requisitos Associados | RF-02 O usuário deve ser capaz de adicionar, salvar e editar as datas importantes no tema escolhido |
-| Objetivo do Teste | Verificar se o usuário consegue adicionar, salvar e editar as datas importantes no tema escolhido |
-| Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "Datas importantes" clicar  na botão calendario <br/> -Inserir a data desejada <br/> -Clicar no botão "Datas Importantes" <br/> - Inserir a descrição da data importante no caixa de texto <br/>- Clicar no botão ok para salvar |
+| Requisitos Associados | RF-02 O usuário deve ser capaz de adicionar, salvar, editar e excluir as datas importantes no tema escolhido |
+| Objetivo do Teste | Verificar se o usuário consegue adicionar, salvar, editar e excluir as datas importantes no tema escolhido |
+| Passos | -Acessar o site <br/> - Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido <br/> -Na coluna "Datas importantes" clicar  na botão calendario <br/> -Inserir a data desejada <br/> -Clicar no botão "Datas Importantes" <br/> - Inserir a descrição da data importante no caixa de texto <br/>- Clicar no botão ok para salvar  <br/> - Clicar no icone editar, inserir o conteúdo e clicar em ok para salvar <br/> - Para excluir clicar no icone X e clicar em ok para mensagem "Tem certeza que deseja excluir este evento?"  |
 | Critérios de êxito | A data importante e a descrição são salvas na coluna "Datas importantes" e no localstorage   |
 | Responsável pela elaborar do caso de Teste | Vitoria Pilon |
 
@@ -60,7 +60,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Verificar se o usuário consegue iniciar, parar e zerar o cronômetro  |
 | Passos | -Acessar o site <br/> - Na pagina inicial ao lado direito superior <br/> -Clicar no botão "Focus Time" para iniciar o cronômetro <br/> -Clicar no botão mesmo botão para parar <br/> -Clicar no botão "Zerar" para zerar <br/> |
 | Critérios de êxito | O usuário é capaz de medir o seu tempo de estudo e zerar o cronometro quando acabar |
-| Responsável pela elaborar do caso de Teste | Mariana Sayuri |
+| Responsável pela elaborar do caso de Teste | Vitoria Pilon |
 
 
 
