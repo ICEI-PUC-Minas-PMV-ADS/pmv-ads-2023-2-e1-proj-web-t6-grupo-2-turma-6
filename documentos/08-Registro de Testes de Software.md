@@ -6,7 +6,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 |Caso de Teste    | CT-01 e CT-05 - Cadastro de credenciais e Login|
 |:---|:---|
-| Resultados obtidos | É possível cadastrar um novo usuario e fazer o login com o e-mail cadastrado  |
+| Resultados obtidos | É possível cadastrar um novo usuário e fazer o login com o e-mail cadastrado  |
 | Responsável pela execução do caso de Teste | Vitoria Veronezzi Pilon  |
 
 - Acessar o site<br/>
@@ -25,7 +25,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-
 | Resultados obtidos | É possível cronometrar o tempo de estudo, parar e zerar o cronômetro  |
 | Responsável pela execução do caso de Teste | Vitoria Veronezzi Pilon  |
 
-- Na pagina inicial ao lado direito superior<br/>
+- Na página inicial ao lado direito superior<br/>
 - Clicar no botão "Focus Time" para iniciar o cronômetro<br/>
 - Clicar no botão mesmo botão para parar<br/>
 - Clicar no botão "Zerar" para zerar<br/>
@@ -38,13 +38,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-
 | Resultados obtidos | É possível inserir, editar e excluir um novo tema e o conteúdo do tema  |
 | Responsável pela execução do caso de Teste | Vitoria Veronezzi Pilon  |
 
-- Na pagina inicial ao lado esquerdo na coluna Temas clicar no botão "Adicionar tema"<br/>
+- Na página inicial ao lado esquerdo na coluna Temas clicar no botão "Adicionar tema"<br/>
 - Clicar no campo Digite o novo tema<br/>
 - Digitar o nome escolhido<br/>
 - Clicar no botão ok para salvar<br/>
 - Clicar no icone editar, inserir novo texto para o tema e clicar em ok para salvar<br/>
 - Para excluir clicar no icone X e clicar em ok para mensagem "Tem certeza que deseja excluir este tema?"<br/>
-- Na pagina inicial ao lado esquerdo na coluna Temas clicar no tema escolhido<br/>
+- Na página inicial ao lado esquerdo na coluna Temas clicar no tema escolhido<br/>
 - Na coluna "O que aprendi hoje" no botão "O que aprendi hoje"<br/>
 - Inserir o conteúdo na caixa de texto<br/>
 - Clicar no botão ok para salvar<br/>
