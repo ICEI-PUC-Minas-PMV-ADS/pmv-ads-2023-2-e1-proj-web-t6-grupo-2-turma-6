@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Criar Conta</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-</head>
-<body id="criarconta-body">
+  <body class="criarconta-body">
+    <div class="conta-form"> <!-- Can make a form again later -->
+      <h1 class="conta-h1">Crie sua conta no LEER</h1>
 
-    <form action="https://api.sheetmonkey.io/form/u5LRS21XZJZZ1WNXjkc3oF" method="post" id="conta-form">
+      <label class="conta-label">
+        <span>Qual o seu nome?</span>
+        <input type="text" name="Nome do usuário" />
+      </label>
 
-        <h1 id="conta-h1">Crie sua conta no LEER</h1>
+      <label class="conta-label">
+        <span>Qual seu melhor e-mail?</span>
+        <input type="email" name="E-mail do usuário" />
+      </label>
 
-        <label id="conta-label">
-            <span>Qual o seu nome?</span>
-            <input type="text" name="Nome do usuário">
-        </label>
+      <label class="conta-label">
+        <span>Escolha a sua senha</span>
+        <input type="password" />
+      </label>
 
-        <label id="conta-label">
-            <span>Qual seu melhor e-mail?</span>
-            <input type="email" name="E-mail do usuário">
-        </label>
+      <div class="conta-label">
+        <button class="botaoconta" id="signUp">Criar minha conta no LEER</button>
+      </div>
 
-        <div id="conta-label" >
-            <span>Escolha a sua senha</span>
-            <input type="password">
-        
-
-        <button type="submit" id="botaoconta">Criar minha conta no LEER</button>
-
-        <a href="index.html">Fazer Login</a>
+      <a href="index.html">Fazer Login</a>
     </div>
- 
-    </form>
-    
-</body>
+    <script src="./signup.js"></script>
+  </body>
 </html>

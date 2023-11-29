@@ -1,317 +1,299 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #dacafb;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dacafb;
+  box-sizing: border-box;
 }
 
 .top-bar {
-    background-color: white;
-    max-width: 100%;
-    padding: 10px;
-    color: black;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  max-width: 100%;
+  padding: 10px;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .focus-time {
-    float: right;
-    padding: 10px;
+  float: right;
+  padding: 10px;
 }
 
 .time-button {
-    background-color: #8b51f5;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
+  background-color: #8b51f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .time-button:hover {
-    background-color: #6b3ebe;
+  background-color: #6b3ebe;
 }
 
 .time i {
-    padding: 10px;
-    scale: 150%;
-    vertical-align: middle;
+  padding: 10px;
+  scale: 150%;
+  vertical-align: middle;
 }
 
 .container {
-    color: black;
-    padding: 70px 0;
-    max-width: 1200px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
+  color: black;
+  padding: 70px 0;
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tema-details {
-    color: black
+  color: black;
 }
 
 .column {
-    flex-basis: 25%;
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin-right: 20px; 
-    margin-left: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    height:55vh; 
+  flex-basis: 25%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  height: 55vh;
 }
 
 .column h2 {
-    text-align: center;
+  text-align: center;
 }
 
-textarea, input[type="date"] {
-    background-color: #8b51f5;
-    resize: none;
-    color: #FFFFFF;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+textarea,
+input[type="date"] {
+  background-color: #8b51f5;
+  resize: none;
+  color: #ffffff;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 textarea::placeholder {
-    color: lightgrey;
+  color: lightgrey;
 }
 
 .data-entry {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .tema-button {
-    background-color: #8b51f5;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    padding-left: 0;
-    margin: 5px 0;
-    cursor: pointer;
-    width: 100%; 
-    box-sizing: border-box;
-    list-style: none;
+  background-color: #8b51f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 0;
+  margin: 5px 0;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 .tema-button:disabled {
-    background-color: #9370db;
-    opacity: 0.6;
-    cursor: not-allowed;
+  background-color: #9370db;
+  opacity: 0.6;
+  cursor: not-allowed;
 }
-  
+
 .tema-button:hover {
-    background-color: #6b3ebe;
+  background-color: #6b3ebe;
 }
 
 .editButtonClass {
-    border: none ;
-    background-color: #8b51f5;
-    color: #fff
- 
+  border: none;
+  background-color: #8b51f5;
+  color: #fff;
 }
 
 .deleteButtonClass {
-    border: none;
-    background-color: #8b51f5;
-    color: #fff
+  border: none;
+  background-color: #8b51f5;
+  color: #fff;
 }
 
 .editarButton_ {
-    border: none ;
-    background-color:#fff;
-    color:#8b51f5;
+  border: none;
+  background-color: #fff;
+  color: #8b51f5;
 }
 
 .excluirButton_ {
-    border: none;
-    background-color: #fff;
-    color:#8b51f5;
+  border: none;
+  background-color: #fff;
+  color: #8b51f5;
 }
 .temaLista {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 hr.rounded {
-    border-top: 3px solid #bbb;
-    border-radius: 2px;
-  }
+  border-top: 3px solid #bbb;
+  border-radius: 2px;
+}
 
 h3 {
-    color: #b48df6;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #b48df6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .login-img {
-    height: 380px;
+  height: 380px;
 }
 
 .login-img img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
-    
+
 .login {
-    max-width: 80%;
-    background: white;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 18px;
-    border-radius: 10px;
+  max-width: 80%;
+  background: white;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18px;
+  border-radius: 10px;
 }
 
 .login-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
 }
 
 .login-form form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .login-form input {
-    background-color: #dacafb;
-    padding: 10px;
-    font-size: medium;
-    text-align: center;
-    color: white;
-    border-color:#b48df6;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    margin: 10px;
+  background-color: #dacafb;
+  padding: 10px;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  border-color: #b48df6;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .login-form input::placeholder {
-    color: white;
+  color: white;
 }
 
-.login-form input[type=submit] {
-    background-color: #a175f5;
-    font-weight: bold;
+.login-form input[type="submit"] {
+  background-color: #a175f5;
+  font-weight: bold;
 }
 
-.login-form input[type=submit]:hover {
-    background-color: #9765f4;
+.login-form input[type="submit"]:hover {
+  background-color: #9765f4;
 }
 
 @media screen and (max-width: 576px) {
-    .container {
-        max-width: 100%;
-        padding: 12px;
-        flex-wrap: wrap;
-    }
-    .column {
-        flex-basis: 100%;
-        padding: 12px;
-        margin-top: 20px;
-        margin-left: 0;
-        margin-right:0;
-        display: block;
-        flex-direction: column;
-    }
-    
-    .login {
-        flex-direction: column;
-        text-align: center;
-        margin: 20px;
-    }
+  .container {
+    max-width: 100%;
+    padding: 12px;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex-basis: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    flex-direction: column;
+  }
 
-    .login-img {
-        height: 200px;
-    }
+  .login {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .login-img {
+    height: 200px;
+  }
 }
 
-
 /*CSS REFERENTE AO CRIAR CONTA */
-    
-    #criarconta-body {
-        background-color: #dacafb;
-        font-family: Arial, Helvetica, sans-serif;
-    }
 
-    #conta-h1{
-        color: #dacafb;
-    }
+.criarconta-body {
+  background-color: #dacafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    #conta-form {
-        max-width: 50%;
-        background: white;
-        margin-top: 10%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 18px;
-        border-radius: 10px;
-        flex-direction: column;
-        text-align: center;
-    
-    }
+.conta-h1 {
+  color: #dacafb;
+}
 
-    #conta-label {
-        margin: 20px; 
-        display: block;
-    }
+.conta-form {
+  max-width: 50%;
+  background: white;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18px;
+  border-radius: 10px;
+  flex-direction: column;
+  text-align: center;
+}
 
-    #conta-label input {
-        background-color: #dacafb;
-        padding: 10px;
-        font-size: medium;
-        color: white;
-        border-color:#b48df6;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 5px;
-        margin: 10px;
-        
-    }
+.conta-label input {
+  background-color: #dacafb;
+  padding: 10px;
+  font-size: medium;
+  color: white;
+  border-color: #b48df6;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
 
-    #conta-label span {
-        padding: 10px;
-        font-size: medium;
-        color: #b48df6;
-        margin: 10px;
-        display: block;
+.conta-label span {
+  padding: 10px;
+  font-size: medium;
+  color: #b48df6;
+  margin: 10px;
+  display: block;
+}
+.botaoconta {
+  background-color: #b48df6;
+  color: white;
+  padding: 10px;
+  font-size: medium;
+  margin: 10px;
+  margin-top: 50px;
+}
 
-    }
-    #botaoconta {
-        cursor: pointer;
-        background-color: #b48df6;
-        color: white;
-        border-radius: 2px;
-        padding: 8px 5px;
-        margin-top: 10px;
-        margin-left: 210px;
-        font-size: 16px;
-        font-style: bold;
-        display: block;
-    
-        
-      
-    }
-    
-    #botaoconta:hover {
-        background-color: #6b3ebe;
-    }
-    
-    a {
-        transition: .5s;
-        cursor: pointer;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #b48df6;
-        padding: 50px;
-        display: block;
-    
-    }
+.botaoconta:hover {
+  background-color: #6b3ebe;
+}
+
+a {
+  transition: 0.5s;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b48df6;
+  display: block;
+}
