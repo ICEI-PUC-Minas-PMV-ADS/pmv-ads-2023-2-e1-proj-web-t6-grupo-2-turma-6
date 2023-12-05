@@ -199,13 +199,14 @@ h3 {
   color: white;
 }
 
-.login-form input[type="submit"] {
+.login-form input[class="submit"] {
   background-color: #a175f5;
   font-weight: bold;
 }
 
-.login-form input[type="submit"]:hover {
+.login-form input[class="submit"]:hover {
   background-color: #9765f4;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
@@ -239,8 +240,10 @@ h3 {
 
 .criarconta-body {
   background-color: #dacafb;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 
 .conta-h1 {
   color: #dacafb;
@@ -254,19 +257,31 @@ h3 {
   margin-right: auto;
   padding: 18px;
   border-radius: 10px;
+  display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.conta-label {
+  padding: 10px;
+}
+
+.conta-label input::placeholder {
+  color: white;
 }
 
 .conta-label input {
   background-color: #dacafb;
   padding: 10px;
   font-size: medium;
+  text-align: center;
   color: white;
   border-color: #b48df6;
   border-style: solid;
   border-width: 2px;
   border-radius: 5px;
+  margin: 10px;
+
 }
 
 .conta-label span {
@@ -277,17 +292,19 @@ h3 {
   display: block;
 }
 .botaoconta {
-  background-color: #b48df6;
-  color: white;
+  background-color: #a175f5;
   padding: 10px;
   font-size: medium;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-color: #b48df6;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
   margin: 10px;
-  margin-top: 50px;
 }
 
-.botaoconta:hover {
-  background-color: #6b3ebe;
-}
 
 a {
   transition: 0.5s;
@@ -296,4 +313,28 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   color: #b48df6;
   display: block;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border-width: 2px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }

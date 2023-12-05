@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Criar Conta</title>
 
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criar Conta</title>
 
-  <body class="criarconta-body">
-    <div class="conta-form"> <!-- Can make a form again later -->
-      <h1 class="conta-h1">Crie sua conta no LEER</h1>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-      <label class="conta-label">
-        <span>Qual o seu nome?</span>
-        <input type="text" name="Nome do usuário" />
-      </label>
+<body class="criarconta-body">
+  <div class="conta-form">
+    <h1 class="conta-h1">Crie sua conta no LEER</h1>
 
-      <label class="conta-label">
-        <span>Qual seu melhor e-mail?</span>
-        <input type="email" name="E-mail do usuário" />
-      </label>
-
-      <label class="conta-label">
-        <span>Escolha a sua senha</span>
-        <input type="password" />
-      </label>
-
-      <div class="conta-label">
-        <button class="botaoconta" id="signUp">Criar minha conta no LEER</button>
-      </div>
-
-      <a href="index.html">Fazer Login</a>
+    <div class="conta-label">
+      <input type="text" id="nome" name="Nome do usuário" placeholder="Qual é o seu nome?" />
     </div>
-    <script src="./signup.js"></script>
-  </body>
+
+    <div class="conta-label">
+      <input type="email" id="email" name="E-mail do usuário" placeholder="Qual é o seu e-mail?" />
+    </div>
+
+    <div class="conta-label">
+      <input type="password" id="senha" placeholder="Escolha a sua senha" />
+    </div>
+
+    <div class="conta-label">
+      <button class="botaoconta" id="signUp" onclick="salvarCadastro()">Salvar </button>
+    </div>
+
+    <a href="index.html">Fazer Login</a>
+  </div>
+  <script src="./signup.js"></script>
+</body>
+
 </html>
