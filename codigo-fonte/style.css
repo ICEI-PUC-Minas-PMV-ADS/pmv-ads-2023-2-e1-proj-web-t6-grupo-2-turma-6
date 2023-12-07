@@ -209,7 +209,7 @@ h3 {
   cursor: pointer;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 776px) {
   .container {
     max-width: 100%;
     padding: 12px;
