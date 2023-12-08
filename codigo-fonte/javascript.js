@@ -71,6 +71,7 @@ mostraTema();
 
 bt1.onclick = function () {
     let tema = prompt('Digite o novo tema');
+    if (tema !== null && tema.trim() !== "") {
     let idTema = ultimoIdTema + 1;
     ultimoIdTema++;
     listaTema.push({
@@ -81,6 +82,7 @@ bt1.onclick = function () {
     localStorage.setItem('tema', JSON.stringify(listaTema));
     localStorage.setItem('ultimoIdTema', ultimoIdTema);
     mostraTema();
+    }
 }
 
 
@@ -157,6 +159,7 @@ function selecionaTema(t) {
 
 bt2.onclick = function () {
     let aprendi = prompt('Digite o que você aprendeu');
+    if (aprendi !== null && aprendi.trim() !== "") {
     let idAprendizado = 'aprendizado_' + (listaAprendizados.length + 1); 
     listaAprendizados.push({
         id: idAprendizado,
@@ -165,6 +168,7 @@ bt2.onclick = function () {
     });
     localStorage.setItem('aprendizados', JSON.stringify(listaAprendizados));
     mostraOQueAprendiHoje();
+}
 }
 
 function editarAprendizado(id) {
@@ -220,6 +224,7 @@ function mostraOQueAprendiHoje() {
 
 bt3.onclick = function () {
     let revisar = prompt('Digite o que você precisa revisar');
+    if (revisar !== null && revisar.trim() !== "") {
     let idRevisar = 'revisar_' + Date.now();
     listaRevisar.push({
         id: idRevisar,
@@ -228,6 +233,7 @@ bt3.onclick = function () {
     });
     localStorage.setItem('revisar', JSON.stringify(listaRevisar));
     mostraOQuePrecisoRevisar();
+}
 }
 
 function editarRevisar(id) {
@@ -283,6 +289,7 @@ function mostraOQuePrecisoRevisar() {
 
 bt4.onclick = function () {
     let data = prompt('Digite o evento dessa data');
+    if (data !== null && data.trim() !== "") {
     let idData = 'data_' + Date.now();
     listaData.push({
         id: idData,
@@ -291,6 +298,7 @@ bt4.onclick = function () {
     });
     localStorage.setItem('datas', JSON.stringify(listaData));
     mostraOQuePrecisoLembrar();
+}
 }
 
 function editarData(id) {
