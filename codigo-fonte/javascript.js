@@ -287,18 +287,23 @@ function mostraOQuePrecisoRevisar() {
     });
 }
 
+// ...
+
 bt4.onclick = function () {
-    let data = prompt('Digite o evento dessa data');
-    if (data !== null && data.trim() !== "") {
-    let idData = 'data_' + Date.now();
-    listaData.push({
-        id: idData,
-        tema: temaSelecionado.id,
-        texto: data
-    });
-    localStorage.setItem('datas', JSON.stringify(listaData));
-    mostraOQuePrecisoLembrar();
-}
+    let inputDate = document.getElementById('temaOquePrecisoData');
+    let eventoTexto = prompt('Digite o compromisso');
+    if (inputDate.value.trim() !== "" && eventoTexto !== null && eventoTexto.trim() !== "") {
+        let idData = 'data_' + Date.now();
+        listaData.push({
+            id: idData,
+            tema: temaSelecionado.id,
+            texto: `${eventoTexto} ${inputDate.value}`
+        });
+        localStorage.setItem('datas', JSON.stringify(listaData));
+        mostraOQuePrecisoLembrar();
+    } else {
+        alert('Por favor, selecione uma data e insira o compromisso.');
+    }
 }
 
 function editarData(id) {
