@@ -47,6 +47,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-
 - Clicar no icone editar, inserir o conteúdo e clicar em ok para salvar<br/>
 - Para excluir clicar no icone X e clicar em ok para mensagem "Tem certeza que deseja excluir esta revisão?"<br/>
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145904814/63ccd8e9-1b4f-4810-b2e9-7266054202c3
+
 |Caso de Teste    | CT-02 -  Adicionar, salvar, editar e excluir o conteúdo "Datas importantes" no tema escolhido|
 |:---|:---|
 | Resultados obtidos | É possível inserir, editar e excluir um novo conteúdo "Datas importantes |
