@@ -31,7 +31,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-
 - Clicar no botão ok para salvar<br/>
 - Clicar no icone editar, inserir o conteúdo e clicar em ok para salvar<br/>
 - Para excluir clicar no icone X e clicar em ok para mensagem "Tem certeza que deseja excluir este aprendizado?"<br/>
-  
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145904814/423acd82-335f-40a0-9259-eff8b6576229
+
 
 |Caso de Teste    | CT-02 -  Adicionar, salvar, editar e excluir o conteúdo  "O que preciso revisar..." no tema escolhido|
 |:---|:---|
