@@ -62,6 +62,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-
 - Clicar no icone editar, inserir o conteúdo e clicar em ok para salvar<br/>
 - Para excluir clicar no icone X e clicar em ok para mensagem "Tem certeza que deseja excluir este evento?"<br/>
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145904814/9bce9f07-3261-46fb-8185-dae9f1456acf
+
 |Caso de Teste    | CT-03 - Criar, editar e excluir um novo tema|
 |:---|:---|
 | Resultados obtidos | É possível inserir, editar e excluir um novo tema |
