@@ -1,8 +1,8 @@
 # Apresentação do Projeto
 
-https://drive.google.com/drive/folders/1lM4GtBp27pi667NoGKOmJU8Oimi2fw2B
+https://drive.google.com/file/d/1bSYEentb3IXwzeQvPyOS9nNIH6lH26wS/view?usp=sharing
 
 ## Vídeo de apresentação
 
-https://drive.google.com/drive/folders/1tfV_yR9AUq96u42mpbe4uca76pGx3hm5
+https://drive.google.com/file/d/1q2dCNraYPoUSbVOkuihnc2ymMbWB8dfR/view?usp=sharing
 
