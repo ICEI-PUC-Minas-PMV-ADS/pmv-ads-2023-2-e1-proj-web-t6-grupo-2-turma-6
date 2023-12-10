@@ -30,7 +30,7 @@ No início do projeto, a equipe realizou uma reuniāo online e decidiram que a c
 
 *1.1 Planejamento:*
 
-A etapa 1 foi desenvolvido: 
+Na etapa 1 foi desenvolvido: 
 
 - Documentação de Contexto
 - Especificação do Projeto
@@ -107,7 +107,33 @@ Imagem 10- Tela de Login
 Imagem 11- Tela principal
 <img width="1440" alt="template-tela-principal" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/0ea2d0fc-6e6a-4250-b1c8-3b6cd6423c75">
 
+**ETAPA 4 - Sprint 4**
+*4.1 Planejamento:*
 
+O objetivo desta etapa foi finalizar o desenvolvimento de todas as funcionalidades, além de elaborar e executar o plano de testes de software.
+
+
+*4.2 Execução:*
+Nessa etapa, Mariana, Larissa e Vitória finalizaram todas as funcionalidades da aplicaçāo. Mariana trabalhou na tela de cadastro, enquanto Larissa e Vitória adcionaram funções à tela principal. Vitória ficou responsável pelos planos e testes de software. Larissa revisou os códigos e fez ajustes necessários na páginas de login, cadastro e home page. 
+
+*4.3 Evidências:*
+Imagem 12 - Kanbvan com as tarefas da etapa 4
+<img width="909" alt="Screenshot 2023-12-10 at 14 56 35" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/89346cec-4d43-48ef-a84b-3ef250cbfea5">
+
+Imagem 13 - Tela de plano de testes de software
+<img width="990" alt="Screenshot 2023-12-10 at 14 59 09" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/f3135f73-5d24-4f42-b078-c488331eaff4">
+
+Imagem 14 - Tela de testes de software
+<img width="1067" alt="Screenshot 2023-12-10 at 15 00 22" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/ed20887e-e307-4672-9711-cd9cd9b6020d">
+
+Imagem 15 - Tela de cadastro 
+<img width="1440" alt="Screenshot 2023-12-10 at 15 02 08" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/dbb3f3d8-0711-4729-ab88-54cefceab8fe">
+
+Imagem 16 - Tela de Login
+<img width="1439" alt="Screenshot 2023-12-10 at 15 03 31" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/9204d018-a85a-4662-b00c-74140ab92405">
+
+Imagem 17 - Tela Principal
+<img width="1439" alt="Screenshot 2023-12-10 at 15 04 42" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/702557e7-0d9d-484d-9c8e-c867f66b243a">
 
 
 ## Ferramentas 
