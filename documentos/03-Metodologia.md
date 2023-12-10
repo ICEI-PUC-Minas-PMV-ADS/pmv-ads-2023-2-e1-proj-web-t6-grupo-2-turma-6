@@ -20,7 +20,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 ### Processo
 No início do projeto, a equipe realizou uma reuniāo online e decidiram que a comunicaçāo será feita de maneira assíncrona, via grupo de WhatsApp e a divisāo de responsabilidades do projeto será feita através do Github Project, que será organizado em quatro colunas:
 
-- Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer -do projeto são incorporadas a esta lista.
+- Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer do projeto são incorporadas a esta lista.
 - To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.
 - In progress: lista das tarefas iniciadas.
 - Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
@@ -117,7 +117,7 @@ O objetivo desta etapa foi finalizar o desenvolvimento de todas as funcionalidad
 Nessa etapa, Mariana, Larissa e Vitória finalizaram todas as funcionalidades da aplicaçāo. Mariana trabalhou na tela de cadastro, enquanto Larissa e Vitória adcionaram funções à tela principal. Vitória ficou responsável pelos planos e testes de software. Larissa revisou os códigos e fez ajustes necessários na páginas de login, cadastro e home page. 
 
 *4.3 Evidências:*
-Imagem 12 - Kanbvan com as tarefas da etapa 4
+Imagem 12 - Kanban com as tarefas da etapa 4
 <img width="909" alt="Screenshot 2023-12-10 at 14 56 35" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/89346cec-4d43-48ef-a84b-3ef250cbfea5">
 
 Imagem 13 - Tela de plano de testes de software
@@ -134,6 +134,29 @@ Imagem 16 - Tela de Login
 
 Imagem 17 - Tela Principal
 <img width="1439" alt="Screenshot 2023-12-10 at 15 04 42" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/702557e7-0d9d-484d-9c8e-c867f66b243a">
+
+**ETAPA 5 - Sprint 5**
+*5.1 Planejamento:*
+O objetivo desta etapa foi entregar a solução para ser usada - ou seja, disponibilizá-la em um servidor WEB - e apresentá-la. 
+
+*5.2 Execução:*
+Na última etapa, as integrantes do grupo se organizaram para ajustar os últimos detalhes da aplicaçāo e preparar a apresentaçāo. Vitoria fez o power point, Larissa criou um roteiro para o vídeo final e Mariana ficou responsável pela ediçāo. 
+
+*5.3 Evidências:*
+Imagem 19 - Conversas no WhatsApp sobre divisāo de tarefas
+<img width="923" alt="Screenshot 2023-12-10 at 20 24 51" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/311f4652-8d98-4e64-97b2-352d363dfab3">
+
+Imagem 18 - Kanban com todas as tarefas finalizadas
+<img width="1177" alt="Screenshot 2023-12-10 at 20 20 56" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/93724dfe-0e98-4680-b01a-bb253c5580dc">
+
+Imagem 19 - Tela da Apresentaçāo 
+<img width="1397" alt="Screenshot 2023-12-10 at 20 26 40" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/42d74c30-ff11-40c5-ab6c-0f9b9781a46b">
+
+Imagem 20 - Conversa sobre envio do vídeo de apresentaçāo
+<img width="966" alt="Screenshot 2023-12-10 at 20 28 49" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/c0d48eda-13eb-4940-86e6-2360d32a0952">
+
+Imagem 21 - Conversa sobre slides da Apresentaçāo 
+<img width="966" alt="Screenshot 2023-12-10 at 20 28 49" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t6-grupo-2-turma-6/assets/145685489/140ba265-7593-47f0-be61-5a23b803ca23">
 
 
 ## Ferramentas 
